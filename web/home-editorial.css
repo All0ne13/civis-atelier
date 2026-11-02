@@ -1,0 +1,99 @@
+﻿/* Match the storefront's heading, body, caption and link styles. */
+.movement-editorial,.brand-editorial,.welcome-signup{font-family:var(--body);color:var(--ink)}
+.movement-editorial{position:relative;isolation:isolate;min-height:740px;height:min(960px,calc(100svh - 96px));overflow:hidden;background:var(--soft);margin:88px 0 0}
+.movement-topline{position:absolute;inset:30px var(--gutter) auto;display:flex;justify-content:space-between;gap:24px;font-size:12px;line-height:1.6;letter-spacing:.1em;z-index:3}
+.movement-orbit{position:absolute;height:115%;aspect-ratio:1;border:1px solid var(--line);border-radius:50%;top:50%;left:50%;transform:translate(-50%,-50%);z-index:-1}
+.movement-editorial h2{position:absolute;inset:28% 0 auto;text-align:center;font:700 clamp(160px,27vw,440px)/1.02 var(--display);letter-spacing:-.025em;margin:0;white-space:nowrap;z-index:0;color:var(--accent)}
+.movement-figure{position:absolute;height:94%;width:48%;inset:auto 26% 0;margin:0;z-index:1;pointer-events:none}
+.movement-figure img{width:100%;height:100%;object-fit:contain;object-position:center bottom}
+.movement-caption{position:absolute;left:var(--gutter);bottom:13%;z-index:2}.movement-caption>span{font-size:12px;line-height:1.6;letter-spacing:.1em}.movement-caption p{font:500 24px/1.4 var(--body);margin-top:16px}
+.movement-link{position:absolute;right:var(--gutter);bottom:17%;display:flex;align-items:center;gap:22px;z-index:3;font-size:14px;font-weight:600;line-height:1.5;min-height:48px}.movement-arrow{display:grid;place-items:center;width:56px;height:56px;border-radius:50%;color:var(--paper);background:var(--accent);transition:transform .2s}.movement-link:hover .movement-arrow{transform:rotate(-35deg);background:var(--ink)}
+.brand-editorial{display:grid;grid-template-columns:minmax(0,.65fr) minmax(0,1.5fr) minmax(0,.85fr);gap:4%;align-items:center;padding:88px var(--gutter);background:var(--paper)}
+.brand-editorial>*{min-width:0}
+.brand-editorial-title{align-self:start;padding-top:20px}.brand-editorial-title h2{font:700 var(--weekly-heading-size)/1.15 var(--display);text-transform:uppercase;letter-spacing:-.015em;margin-top:24px}.brand-editorial-signature{display:block;font:600 16px/1.6 var(--body);color:var(--accent);margin-top:32px}
+.brand-editorial-photo{position:relative;margin:0;min-width:0}.brand-editorial-photo img{display:block;width:100%;height:auto;aspect-ratio:3/4;object-fit:cover}.brand-editorial-photo figcaption{position:absolute;inset:auto 20px 22px;color:var(--paper);font-size:12px;line-height:1.6;letter-spacing:.1em;text-shadow:0 1px 8px #0008}
+.brand-editorial-copy h3{font:700 clamp(24px,2.2vw,32px)/1.15 var(--display);letter-spacing:-.025em;text-transform:uppercase;margin:24px 0}.brand-editorial-copy>p{font-size:16px;line-height:1.6;color:var(--muted);margin-bottom:24px}.brand-editorial-copy .line-link{margin-top:8px;font-size:14px;font-weight:500}
+.welcome-signup{display:grid;grid-template-columns:1fr 1fr;gap:10%;padding:64px 0;margin-bottom:64px;border-bottom:1px solid var(--line)}
+.welcome-signup h2{font:700 var(--weekly-heading-size)/1.15 var(--display);letter-spacing:-.015em;text-transform:uppercase;margin:24px 0}.welcome-signup>div>p:last-child{font-size:16px;line-height:1.6;max-width:420px;color:var(--muted)}
+.welcome-signup form{align-self:center;min-width:0}.welcome-signup label{display:block;font-size:14px;line-height:1.5;margin-bottom:8px}.welcome-input-row{display:grid;grid-template-columns:minmax(0,1fr) 56px;border-bottom:1px solid var(--ink)}.welcome-input-row:focus-within{outline:2px solid var(--accent);outline-offset:3px}.welcome-input-row input{min-width:0;width:100%;border:0;background:transparent;padding:14px 8px;font:16px/1.5 var(--body)}.welcome-input-row input:focus{outline:none}.welcome-input-row button{display:grid;place-items:center;min-height:56px;background:var(--accent);color:var(--paper)}.welcome-input-row button:focus-visible{outline:2px solid var(--paper);outline-offset:-5px}.welcome-input-row button:hover{background:var(--ink)}.welcome-input-row button:disabled{opacity:.6;cursor:wait}.welcome-terms{font-size:12px;line-height:1.6;color:var(--muted);margin-top:16px;max-width:420px}.welcome-status{font-size:14px;line-height:1.6;color:var(--accent);min-height:44px;margin-top:16px}
+@media(max-width:1000px){.brand-editorial{grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:32px;padding-block:64px}.brand-editorial-title{grid-column:1/-1;padding-top:0;display:flex;justify-content:space-between;align-items:end;gap:24px}.brand-editorial-title h2{margin:0}.brand-editorial-signature{display:none}.movement-editorial{min-height:620px;margin-top:64px}.movement-link{gap:12px}}
+@media(max-width:600px){.movement-editorial{margin-top:48px;min-height:610px;height:160vw;max-height:760px}.movement-topline{inset:22px var(--gutter) auto;font-size:11px}.movement-topline>span:last-child{display:none}.movement-editorial h2{top:25%;font-size:30vw}.movement-figure{width:84%;left:8%;height:84%;bottom:11%}.movement-orbit{height:77%}.movement-caption{bottom:24px;max-width:45%}.movement-caption>span{font-size:11px}.movement-caption p{font-size:18px;margin-top:8px}.movement-link{bottom:28px;font-size:14px;gap:8px;max-width:45%}.movement-arrow{width:44px;height:44px;flex:none}.brand-editorial{grid-template-columns:minmax(0,1fr);gap:24px;padding:48px var(--gutter)}.brand-editorial-title{display:block;grid-column:auto}.brand-editorial-title h2{margin-top:16px}.brand-editorial-title h2 br{display:block}.brand-editorial-photo{max-width:100%}.brand-editorial-photo img{aspect-ratio:4/5;object-position:center 60%}.brand-editorial-photo figcaption{font-size:11px}.brand-editorial-copy h3{font-size:24px;margin-top:16px}.welcome-signup{grid-template-columns:minmax(0,1fr);gap:32px;padding:48px 0;margin-bottom:48px}.welcome-signup h2{margin:16px 0 24px}.welcome-status{min-height:28px}}
+@media(prefers-reduced-motion:reduce){.movement-arrow{transition:none}}
+
+/* Campaign navigation stays inside the artwork. */
+.movement-orbit{border-width:2px;border-color:#294e3c59}
+.movement-controls{position:absolute;right:var(--gutter);bottom:20px;z-index:4;color:var(--accent)}
+.movement-dots{display:flex;gap:0}.movement-dots button{width:32px;height:44px;display:grid;place-items:center}.movement-dots button span{width:5px;height:5px;border-radius:50%;background:var(--accent);opacity:.28;transition:opacity .2s,transform .2s}.movement-dots button[aria-pressed=true] span{opacity:.85;transform:scale(1.2)}.movement-controls button:focus-visible{outline-offset:-6px;border-radius:20px}
+@media(max-width:600px){.movement-editorial{min-height:680px}.movement-figure{height:70%;bottom:28%}.movement-caption{bottom:96px;max-width:48%}.movement-caption p{font-size:16px;line-height:1.5}.movement-link{bottom:100px;max-width:42%;gap:8px}.movement-controls{bottom:18px;right:50%;transform:translateX(50%);gap:4px}.movement-orbit{height:82%}}
+@media(prefers-reduced-motion:reduce){.movement-dots button span{transition:none}}
+
+/* Mobile artwork and copy occupy separate rows instead of percentage offsets. */
+.movement-stage{display:contents}
+@media(max-width:850px){
+ .movement-editorial{height:auto;min-height:0;max-height:none;display:grid;grid-template-columns:minmax(0,1fr);gap:20px;padding:24px var(--gutter) 8px;margin-top:48px}
+ .movement-topline{position:static;inset:auto;display:block;font-size:11px;line-height:1.5;letter-spacing:.08em}
+ .movement-topline>span:last-child{display:none}
+ .movement-stage{display:block;position:relative;isolation:isolate;height:clamp(320px,100vw,440px);margin-inline:calc(-1 * var(--gutter));overflow:hidden}
+ .movement-stage .movement-orbit{width:min(94%,420px);height:auto;aspect-ratio:1;top:50%;left:50%;z-index:-1}
+ .movement-editorial h2{inset:0;display:grid;place-items:center;font-size:clamp(88px,28vw,160px);padding:0;line-height:1;letter-spacing:-.025em}
+ .movement-stage .movement-figure{inset:0 8%;width:84%;height:100%;margin:0}
+ .movement-caption{position:static;inset:auto;max-width:none;min-width:0}
+ .movement-caption>span{display:block;font-size:11px;line-height:1.5;letter-spacing:.08em}
+ .movement-caption p{font-size:20px;line-height:1.4;margin-top:12px}
+ .movement-link{position:static;inset:auto;max-width:none;min-width:0;width:100%;display:flex;justify-content:space-between;align-items:center;font-size:14px;line-height:1.5;padding-top:16px;border-top:1px solid var(--line);gap:20px}
+ .movement-arrow{width:44px;height:44px}
+ .movement-link>span:first-child br{display:none}
+ .movement-controls{position:static;inset:auto;transform:none;justify-self:center;margin-top:-8px}
+ .movement-dots button{height:36px;width:32px}
+}
+/* Open editorial link on desktop; solid shopping action on small screens. */
+.movement-link{background:transparent;color:var(--accent);border:0;border-bottom:1px solid currentColor;padding:0 0 14px;min-height:72px;min-width:240px;justify-content:space-between;gap:24px;font-size:20px;font-weight:600;transition:color .2s}
+.movement-arrow{width:56px;height:56px;flex:none;border:0;background:var(--accent);color:var(--paper);transition:transform .2s,background .2s}
+.movement-link:active{color:var(--ink)}
+.movement-link:focus-visible{outline-offset:4px}
+@media(hover:hover){.movement-link:hover{color:var(--ink)}.movement-link:hover .movement-arrow{transform:translateX(3px);background:var(--ink)}}
+@media(max-width:850px){.movement-link{width:100%;min-width:0;min-height:60px;padding:14px 18px 14px 20px;gap:20px;font-size:16px;background:var(--accent);color:var(--paper);border:1px solid var(--accent)}.movement-arrow{width:32px;height:32px;border:1px solid #f2f3ef55;background:transparent;color:inherit}.movement-link:active{background:var(--ink);color:var(--paper)}.movement-controls{margin-top:0}}
+@media(max-width:850px) and (hover:hover){.movement-link:hover{background:var(--ink);color:var(--paper)}.movement-link:hover .movement-arrow{background:transparent}}
+@media(prefers-reduced-motion:reduce){.movement-link,.movement-arrow{transition:none}}
+/* Desktop campaign: artwork above a shared caption/action baseline. */
+@media(min-width:851px){
+ .movement-editorial{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-rows:auto minmax(0,1fr) auto auto;gap:16px 40px;height:calc(100svh - 112px);min-height:620px;max-height:960px;padding:28px var(--gutter) 12px;scroll-margin-top:0}
+ .movement-topline{position:static;inset:auto;grid-column:1/-1;font-size:11px;line-height:1.5}
+ .movement-stage{display:block;position:relative;isolation:isolate;grid-column:1/-1;min-width:0;min-height:0;height:100%;overflow:hidden}
+ .movement-stage .movement-orbit{height:94%;width:auto;aspect-ratio:1;top:50%;left:50%;z-index:-1}
+ .movement-editorial h2{inset:0;display:grid;place-items:center;font-size:clamp(140px,22vw,300px);line-height:1;letter-spacing:-.025em;padding:0}
+ .movement-stage .movement-figure{inset:0 25%;width:50%;height:100%;margin:0}
+ .movement-caption{position:static;inset:auto;min-width:0;max-width:none;align-self:end}
+ .movement-caption>span{display:block;font-size:11px;line-height:1.5;letter-spacing:.08em}
+ .movement-caption p{font-size:24px;line-height:1.4;margin-top:12px}
+ .movement-link{position:static;inset:auto;align-self:end;min-width:248px;max-width:none;min-height:72px;margin:0;font-size:20px}
+ .movement-controls{position:static;inset:auto;grid-column:1/-1;justify-self:center;transform:none;margin:0}
+ .movement-dots button{height:32px}
+}
+@media(max-width:850px){.movement-editorial{scroll-margin-top:0}}
+
+
+/* The brand ribbon joins the collection and motion spreads without blank space. */
+.atelier-ribbon{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:32px;padding:24px var(--gutter);min-height:132px;background:var(--ink);color:var(--paper);border-top:1px solid #f2f3ef26}
+.atelier-ribbon p{margin:0;min-width:0}
+.atelier-ribbon-name{display:flex;align-items:center;gap:24px;font:700 clamp(40px,5.4vw,88px)/1.05 var(--display);letter-spacing:-.025em;white-space:nowrap}
+.atelier-ribbon-note{font:500 12px/1.65 var(--body);letter-spacing:.08em}
+.atelier-ribbon-note:last-child{text-align:right}
+.atelier-ribbon+.movement-editorial{margin-top:0}
+@media(max-width:1100px){.atelier-ribbon{gap:20px;padding-block:24px}.atelier-ribbon-name{gap:16px}.atelier-ribbon-note{font-size:11px;letter-spacing:.04em}}
+@media(max-width:700px){.atelier-ribbon{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px 12px;padding:24px var(--gutter);min-height:0}.atelier-ribbon-name{grid-column:1/-1;grid-row:1;justify-self:center;font-size:clamp(36px,9.5vw,58px);gap:16px}.atelier-ribbon-note{font-size:11px;line-height:1.6;letter-spacing:.04em}.atelier-ribbon-note:last-child{text-align:right}}
+
+/* Editorial side notes give the central silhouette a surrounding story. */
+.movement-notes{position:absolute;inset:26% var(--gutter) 28%;display:grid;grid-template-columns:minmax(130px,185px) minmax(0,1fr) minmax(130px,185px);gap:24px;z-index:2;pointer-events:none}
+.movement-note{min-width:0;color:var(--accent)}
+.movement-note-story{grid-column:1;align-self:start}
+.movement-note-details{grid-column:3;align-self:end}
+.movement-note>span{display:block;font:500 11px/1.5 var(--body);letter-spacing:.09em}
+.movement-note h3{font:700 clamp(30px,2.7vw,44px)/1.06 var(--display);margin:16px 0 12px;letter-spacing:-.015em}
+.movement-note p{font:400 13px/1.65 var(--body);max-width:180px;margin:0;color:var(--muted)}
+.movement-note ul{list-style:none;padding:0;margin:16px 0 0;border-top:1px solid #294e3c40}
+.movement-note li{font:400 13px/1.5 var(--body);padding:12px 0;border-bottom:1px solid #294e3c40}
+@media(min-width:851px){.movement-editorial{height:calc(100svh - 96px);gap:12px 40px}.movement-editorial h2{font-size:clamp(140px,21vw,340px)}.movement-stage .movement-orbit{height:96%}}
+@media(min-width:851px) and (max-width:1200px){.movement-notes{grid-template-columns:145px minmax(0,1fr) 145px;gap:12px}.movement-note h3{font-size:32px}.movement-note p,.movement-note li{font-size:12px}}
+@media(max-width:850px){.movement-notes{position:static;inset:auto;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;pointer-events:auto;border-top:1px solid #294e3c40;padding-top:18px}.movement-note-story,.movement-note-details{grid-column:auto;align-self:start}.movement-note>span{font-size:10px;letter-spacing:.06em}.movement-note h3{font-size:28px;margin:10px 0 8px}.movement-note h3 br{display:none}.movement-note p{font-size:12px;line-height:1.6}.movement-note ul{margin:10px 0 0;border-top:0}.movement-note li{font-size:12px;padding:7px 0}.movement-note li:first-child{padding-top:0}.movement-caption{padding-top:4px}}
+

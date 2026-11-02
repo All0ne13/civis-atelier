@@ -1,0 +1,174 @@
+/* Shared type roles: the logo remains the brand mark; page lettering has one rhythm. */
+:root{--body:'Manrope Variable',Arial,sans-serif;--display:'Caveat',Arial,sans-serif;--serif:var(--display);--type-body:16px;--type-small:13px;--type-label:14px;--type-button:16px;--type-page-title:72px;--type-product-title:72px;--type-section-title:54px;--type-subtitle:34px;--type-lead:28px;--action-green:#294e3c;--action-hover:#173b2b;--action-light:#e3ebd6;--action-ink:#18211c}
+body{font-family:var(--body);font-size:var(--type-body);line-height:1.65}button,input,select,textarea{font-family:var(--body)}
+:is(.catalogue-heading h1,.company-about-copy h1,.company-contact-hero h1,.legal-hero h1,.checkout-heading h1,.checkout-result h1,.atelier-profile-heading h1){font:700 var(--type-page-title)/1.06 var(--display);letter-spacing:-.02em;text-transform:none;overflow-wrap:anywhere}
+.product-info h1{font:700 var(--type-product-title)/1.08 var(--display);letter-spacing:-.02em;text-transform:none;overflow-wrap:anywhere}
+:is(.section-title,.brand-editorial-title h2,.welcome-signup h2,.company-section-heading h2,.company-manifesto h2,.company-faq h2){font:700 var(--type-section-title)/1.1 var(--display);letter-spacing:-.02em;text-transform:none}
+:is(.brand-editorial-copy h3,.company-values-grid h3,.legal-section h2,.company-address h2,.company-channel h2,.size-guide-header h2,.drawer-head h2){font:700 var(--type-subtitle)/1.2 var(--display);letter-spacing:-.015em;text-transform:none}
+.campaign-hero .campaign-copy #home-title{font:700 clamp(40px,4.4vw,68px)/1.04 var(--display);letter-spacing:-.02em;min-height:2.08em;text-transform:none}
+:is(.movement-caption p,.company-lead,.hero-note){font:500 var(--type-lead)/1.5 var(--body);letter-spacing:-.02em}.campaign-copy .intro{font:400 16px/1.65 var(--body);letter-spacing:0}.company-about-copy>p:not(.legal-kicker):not(.company-lead),.company-contact-hero>div>p:not(.company-lead):not(.company-contact-status),.company-manifesto>p:not(.legal-kicker),.brand-editorial-copy>p,.welcome-signup>div>p:last-child,.product-description,.legal-section p{font:500 var(--type-body)/1.6 var(--body)}
+:is(.section-index,.eyebrow,.legal-kicker,.company-channel-label,.movement-topline,.movement-caption>span,.collection-cover-edition,.campaign-copy-top .eyebrow,.campaign-edition){font:500 var(--type-small)/1.6 var(--body);letter-spacing:.1em;text-transform:none}
+:is(.card-meta,.product-notes,.gallery-caption,.welcome-terms,.welcome-status,.legal-meta,.legal-toc a,.company-contact-status,.company-channel-bottom,.size-guide-unit,.size-guide-availability,.size-guide-legend,.size-guide-note,.checkout-summary-fine,.checkout-test-note,.checkout-field-error,.checkout-note,.order-progress small,.order-tracking>span){font-family:var(--body);font-size:var(--type-small);line-height:1.65}
+.heading-row .sub{font:500 var(--type-small)/1.5 var(--body)}.heading-row .sub em{font:500 var(--type-small)/1.6 var(--body);font-style:normal;letter-spacing:.04em}
+.product-card .card-body h3,.product-card .card-title{font:500 16px/1.45 var(--body);letter-spacing:-.015em;text-transform:none}.product-card .card-price{font:600 16px/1.5 var(--body)}.variant,.size-filter,.chip,.sort-field select,.filter-options,.checkout-fields label,.size-guide-link{font-family:var(--body);font-size:var(--type-label)}input:not([type=checkbox]):not([type=range]),textarea{font-size:16px}.order-progress h2{font:600 18px/1.5 var(--body)}.size-guide-diagram text{font-family:var(--body)}
+/* Clear action states; directional icons are reserved for gallery/carousel navigation. */
+:is(.button,.company-button,.movement-link,.atelier-auth-primary,.atelier-auth-secondary,.checkout-pay,.welcome-input-row button){font:600 var(--type-button)/1.4 var(--body);letter-spacing:0;min-height:54px;justify-content:center;gap:0;border-radius:0;transition:background-color .18s ease,color .18s ease,border-color .18s ease,box-shadow .18s ease,transform .18s ease;cursor:pointer}
+:is(.button.dark,.company-button,.movement-link,.atelier-auth-primary,.checkout-pay,.welcome-input-row button){background:var(--action-green);border:1px solid var(--action-green);color:#f2f3ef}
+.movement-editorial .movement-link{display:inline-flex;align-items:center;justify-content:center;min-width:216px;min-height:56px;padding:16px 24px;margin:0;font:600 var(--type-button)/1.4 var(--body);border:1px solid var(--action-green);background:var(--action-green);color:#f2f3ef}
+.collection-cover .collection-cover-link,.campaign-hero a.hero-cta{display:inline-flex;align-items:center;justify-content:center;min-height:56px;margin-top:28px;padding:16px 24px;font:600 var(--type-button)/1.4 var(--body);background:var(--action-light);border:1px solid var(--action-light);color:var(--action-ink);box-shadow:0 0 0 transparent;transition:background-color .18s,color .18s,border-color .18s,box-shadow .18s,transform .18s}
+.campaign-hero .campaign-copy a.hero-cta{margin-top:24px;font:600 var(--type-button)/1.4 var(--body);background:var(--action-light);border-color:var(--action-light);color:var(--action-ink)}.campaign-hero .campaign-copy .intro{font:400 var(--type-body)/1.65 var(--body)}.campaign-hero .campaign-copy .hero-note{font:500 var(--type-lead)/1.5 var(--body);font-style:normal}.line-link,.company-text-link{font:600 14px/1.5 var(--body);min-height:44px;text-decoration:none;text-underline-offset:5px;transition:color .18s,border-color .18s,box-shadow .18s}.desktop-nav a{position:relative;font:500 14px/1.5 var(--body);padding:10px 4px;min-height:44px;transition:color .18s,box-shadow .18s}.desktop-nav a[aria-current=page]{color:var(--action-green);border-bottom:0;box-shadow:inset 0 -2px var(--action-green)}
+.atelier-auth .atelier-clerk-submit{transition:background-color .18s,box-shadow .18s,transform .18s!important}.atelier-auth .cl-buttonArrowIcon{display:none!important}.welcome-input-row button{padding-inline:16px;font-size:14px;min-width:120px}
+:is(.button,.company-button,.movement-link,.collection-cover-art,.atelier-auth-primary,.atelier-auth-secondary,.checkout-pay,.welcome-input-row button):focus-visible{outline:2px solid var(--action-green);outline-offset:4px}.collection-cover-art:focus-visible{outline-color:#f2f3ef}.collection-cover-art:focus-visible .collection-cover-link{box-shadow:0 0 0 3px #f2f3ef66}
+@media(hover:hover) and (pointer:fine){
+ :is(.button.dark,.company-button,.movement-editorial .movement-link,.atelier-auth-primary,.checkout-pay,.welcome-input-row button):not(:disabled):hover{background:var(--action-hover);border-color:var(--action-hover);color:#fff;box-shadow:0 6px 18px #13291c24;transform:translateY(-2px)}
+ .collection-cover .collection-cover-art:hover .collection-cover-link,.collection-cover .collection-cover-link:hover,.campaign-hero .campaign-copy a.hero-cta:hover{background:#f6f8ee;color:var(--action-ink);border-color:#fff;box-shadow:0 8px 24px #07190f40;transform:translateY(-2px)}
+ .button:not(.dark):not(.hero-cta):not(:disabled):hover,.atelier-auth-secondary:hover{background:var(--action-green);color:#f2f3ef;border-color:var(--action-green);box-shadow:0 4px 16px #13291c1a;transform:translateY(-2px)}
+ .line-link:hover,.company-text-link:hover{color:var(--action-ink);box-shadow:0 1px 0 currentColor}.desktop-nav a:hover{color:var(--action-green);box-shadow:inset 0 -2px var(--action-green)}
+ .campaign-hero .campaign-category:hover{background:#294e3c;color:#f2f3ef;box-shadow:0 4px 16px #13291c20;transform:translateY(-2px)}
+ .atelier-auth .atelier-clerk-submit:not(:disabled):hover{background:var(--action-hover)!important;box-shadow:0 6px 18px #13291c24!important;transform:translateY(-2px)}
+}
+:is(.button,.company-button,.movement-link,.atelier-auth-primary,.checkout-pay):active{transform:translateY(0);box-shadow:inset 0 2px 6px #0002}:is(.button,.checkout-pay,.welcome-input-row button):disabled{background:#d1d9ca;border-color:#d1d9ca;color:#697360;box-shadow:none;transform:none;cursor:default}
+.campaign-hero .campaign-category{transition:background-color .18s,color .18s,box-shadow .18s,transform .18s}.movement-controls{padding-top:4px}.movement-dots button{width:36px;min-height:36px}.movement-dots button span{width:6px;height:6px}.movement-dots button[aria-pressed=true] span{opacity:1}
+.font-admin{font:400 15px/1.6 var(--body)}.font-admin h1{font:700 40px/1.1 var(--display);text-transform:none}.font-admin h2,.font-admin h3{font-family:var(--display);font-weight:600}.font-admin label{font-size:14px}.font-admin small,.font-admin .admin-panel-body>p,.font-admin .admin-product-details>p{font-size:12px;line-height:1.65}
+@media(max-width:850px){.movement-editorial .movement-link{width:100%;min-width:0;min-height:56px}.company-values-grid h3{font-size:26px}}
+@media(min-width:601px) and (max-width:850px){.campaign-hero .campaign-photo{align-self:stretch}.campaign-hero .campaign-photo img{height:100%;object-fit:cover}}
+@media(max-width:600px){:root{--type-page-title:46px;--type-product-title:46px;--type-section-title:40px;--type-subtitle:30px;--type-lead:26px}.campaign-hero .campaign-copy #home-title{font-size:40px}.collection-cover .collection-cover-link,.campaign-hero a.hero-cta{font-size:16px;min-height:54px;padding:14px 20px}.collection-cover .collection-cover-link{margin-top:20px}.welcome-input-row button{min-width:110px;padding-inline:12px;font-size:13px}.font-admin h1{font-size:32px}.product-related .section-title{font-size:32px}.company-channel h2,.company-values-grid h3,.legal-section h2{font-size:26px}}
+@media(prefers-reduced-motion:reduce){:is(.button,.company-button,.movement-link,.collection-cover-link,.hero-cta,.atelier-auth-primary,.atelier-auth-secondary,.checkout-pay,.welcome-input-row button,.line-link,.company-text-link,.desktop-nav a,.campaign-category){transition:none!important;transform:none!important}.atelier-auth .atelier-clerk-submit{transition:none!important;transform:none!important}}
+
+/* Authoritative type roles. Important is deliberately limited to typography:
+   legacy page selectors must not invent another size for the same text role. */
+:is(.catalogue-heading h1,.company-about-copy h1,.company-contact-hero h1,.legal-hero h1,.checkout-heading h1,.checkout-result h1,.atelier-profile h1,.product-info h1,.campaign-copy #home-title,.font-admin h1){font:700 var(--type-page-title)/1.08 var(--display)!important;letter-spacing:-.02em!important;text-transform:none}
+:is(.section-title,.brand-editorial-title h2,.welcome-signup h2,.company-section-heading h2,.company-manifesto h2,.company-faq h2,.atelier-auth-heading h2,.atelier-signout h2,.drawer-head h2){font:700 var(--type-section-title)/1.12 var(--display)!important;letter-spacing:-.02em!important;text-transform:none}
+:is(.brand-editorial-copy h3,.company-values-grid h3,.legal-section h2,.company-address h2,.company-channel h2,.size-guide-header h2,.cookie-consent h2,.checkout-summary h2,.account-orders h2,.empty h2,.font-admin h2,.font-admin h3){font:700 var(--type-subtitle)/1.2 var(--display)!important;letter-spacing:-.015em!important;text-transform:none}
+:is(.movement-caption p,.company-lead,.campaign-copy .hero-note){font:500 var(--type-lead)/1.5 var(--body)!important;letter-spacing:0!important}
+:is(.campaign-copy .intro,.brand-editorial-copy>p,.welcome-signup>div>p:last-child,.company-about-copy>p:not(.legal-kicker):not(.company-lead),.company-contact-hero>div>p:not(.company-lead):not(.company-contact-status),.company-manifesto>p:not(.legal-kicker),.company-values-grid article>p,.company-faq details p,.legal-intro,.legal-section p,.legal-section li,.product-description,.details details p){font:500 var(--type-body)/1.6 var(--body)!important;letter-spacing:0!important}
+:is(.section-index,.eyebrow,.legal-kicker,.company-channel-label,.movement-topline,.movement-caption>span,.collection-cover-edition,.campaign-copy-top .eyebrow,.campaign-edition,.company-about-photo figcaption,.brand-editorial-photo figcaption,.visual-top,.visual-top span,.turn-kicker,.gallery-label){font:500 var(--type-small)/1.6 var(--body)!important;letter-spacing:.08em!important}
+:is(.card-meta,.product-notes,.gallery-caption,.welcome-terms,.welcome-status,.legal-meta,.company-contact-status,.company-channel-bottom,.checkout-summary-fine,.checkout-test-note,.checkout-note,.price-note,.atelier-ribbon-note){font:500 var(--type-small)/1.5 var(--body)!important;letter-spacing:0!important}
+:is(.product-card .card-body h3,.product-card .card-body h3 a,.product-card .card-title){font:500 16px/1.5 var(--body)!important;letter-spacing:0!important;text-transform:none}
+:is(.button,.company-button,.movement-link,.collection-cover-link,.hero-cta,.atelier-auth-primary,.atelier-auth-secondary,.checkout-pay,.welcome-input-row button){font:600 var(--type-button)/1.5 var(--body)!important;letter-spacing:0!important}
+.welcome-input-row button{min-width:128px}
+:is(.details summary,.variant-label,.filter-head h2,.checkout-fields label,.welcome-signup label){font:600 var(--type-label)/1.5 var(--body)!important;letter-spacing:0!important}
+@media(min-width:601px) and (max-width:1023px){:root{--type-page-title:60px;--type-product-title:60px;--type-section-title:48px;--type-subtitle:32px}}
+
+/* Frames clip the small photo movement without moving the text around them. */
+.brand-editorial-photo{overflow:hidden}
+
+/* Hand-lettered navigation echoes the logo; long text retains the reading face. */
+:root{--brand-hand:'Caveat',Arial,sans-serif}
+.site-header .desktop-nav a{font:700 25px/1.2 var(--brand-hand);letter-spacing:0;padding:10px 4px}
+.site-header .cart-label{font:700 21px/1.2 var(--brand-hand);letter-spacing:0}
+.site-header .header-actions .locale{font:700 18px/1.2 var(--brand-hand);letter-spacing:0}
+.site-footer .footer-col h3{font:700 27px/1.2 var(--brand-hand);letter-spacing:0;text-transform:none;margin-bottom:16px}
+.site-footer .footer-col a{font:700 23px/1.35 var(--brand-hand);letter-spacing:0;min-height:44px;padding-block:5px}
+.drawer.atelier-menu .menu-row{font:700 27px/1.3 var(--brand-hand);letter-spacing:0}
+.drawer.atelier-menu .menu-account .menu-row{font-size:25px}
+@media(max-width:600px){.site-footer .footer-col h3{font-size:26px;margin-bottom:10px}.site-footer .footer-col a{font-size:23px}.site-header .header-actions .locale{font-size:18px}}
+
+/* One handwritten family, with sizes adjusted for its lower letter height. */
+body{font-weight:500}
+:is(button,input,select,textarea){font-family:var(--body)}
+input:not([type=checkbox]):not([type=radio]):not([type=range]),textarea,select{font-size:22px}
+:is(.breadcrumbs,.company-breadcrumbs,.legal-header>a,.checkout-header #back-store,.line-link,.company-text-link,.footer-brand>p,.filter-options,.sort-field select,.category-tabs,.campaign-category,.gallery-caption,.checkout-signin,.checkout-note,.checkout-method p,.checkout-test-note,.checkout-summary-fine,.checkout-result p){font-size:20px}
+:is(.product-card .card-body h3,.product-card .card-body h3 a,.product-card .card-title){font:600 22px/1.35 var(--body)!important}
+:is(.card-price,.product-card .card-price,.variant,.chip,.size-guide-link,.details summary,.checkout-step legend,.checkout-line h3,.checkout-line-price,.checkout-costs>div,.checkout-total,.checkout-payment-option strong,.checkout-delivery){font-size:22px}
+.size-filter{font:500 14px/1.4 var(--body)}
+:is(.card-tag,.count,.currency-context,.gallery-label,.filter-head button,.active-filter,.checkout-line small,.checkout-delivery small,.checkout-payment-option small,.checkout-card-brands span,.checkout-costs .muted,.checkout-step legend span,.footer-social-note,.footer-bottom,.welcome-input-row button){font-size:18px}
+.site-header .count{font-size:12px;line-height:1}
+.site-footer .footer-col h3{font:700 34px/1.15 var(--brand-hand);margin-bottom:18px}
+.site-footer .footer-col a{font:500 24px/1.4 var(--brand-hand)}
+.site-footer .footer-brand>p{font:500 20px/1.5 var(--body)}
+.site-footer .footer-brand>.footer-social-note,.site-footer .footer-bottom{font:500 18px/1.45 var(--body)}
+.site-footer .footer-col h3{letter-spacing:-.015em}
+.cookie-consent h2{font:700 34px/1.15 var(--display)}
+.cookie-consent p,.cookie-consent-actions button,.cookie-preferences-link{font-size:20px}
+.atelier-auth-tabs>button,.atelier-auth-fine{font-size:20px}
+.atelier-auth-edition,.atelier-auth-art-copy>span{font-size:17px}
+.atelier-auth .cl-formFieldLabel{font-size:20px!important;font-weight:600!important}
+.atelier-auth :is(.atelier-clerk-input,.atelier-clerk-social,.atelier-clerk-submit){font-size:22px!important}
+.atelier-auth .cl-dividerText{font-size:18px!important}
+.atelier-auth :is(.cl-footerActionText,.cl-footerActionLink,.cl-formFieldErrorText,.cl-alertText,.cl-formFieldAction){font-size:20px!important;line-height:1.4!important}
+.font-admin{font:500 21px/1.5 var(--body)}
+.font-admin label,.font-admin :is(td,th,small,summary,p,.admin-panel-body>p,.admin-order-dialog td,.admin-order-dialog th,.admin-size-table td,.admin-size-table th,.order-status-badge){font-size:20px}
+@media(max-width:600px){.site-footer .footer-col h3{font-size:32px}.site-footer .footer-col a{font-size:24px}.welcome-input-row button{min-width:116px;font-size:19px}.card-meta{font-size:18px}.card-tag{font-size:16px}.checkout-delivery{flex-wrap:wrap}.checkout-delivery small{margin-left:26px}.checkout-summary{padding:20px}.cookie-consent{padding:20px}.cookie-consent-actions{gap:8px}}
+
+/* Compact legacy widgets use the same family at a readable optical size. */
+.product-card .card-tag{font-size:16px}
+.product-card .card-price,.product-card .card-price .od-nowrap{font-size:22px!important}
+.quick-head,.quick-size,.quick-size select,.quick-colors button,.quick-open{font-size:20px}
+.quick-feedback{font-size:18px}
+.category-shortcut-name,.campaign-categories a span,.collection-cover-nav a span{font-size:22px}
+.category-shortcut small,.category-shortcut-count,.results-bar>p,.carousel-position,.photo-disclaimer,.stock-line{font-size:18px}
+.gallery-arrow,.carousel-arrow{width:44px;height:44px;padding:0}
+.gallery-arrow .od-icon,.carousel-arrow .od-icon{display:block;width:22px;height:22px;flex:none}
+.variant-label strong,.turn-material,.turn-sizes,.turn-material b,.turn-sizes b{font-size:20px}
+.turn-description{font-size:22px}
+.turn-return{font-size:18px}
+.brand-editorial-signature{font-size:24px}
+.legal-pages a,.legal-notice,.legal-notice p,.legal-highlights p,.legal-toc summary,.legal-toc nav a,.legal-action{font-size:20px}
+.legal-toc nav a span{font-size:18px}
+.size-guide-product,.size-guide-modal table,.size-guide-modal thead th,.size-guide-modal thead b{font-size:20px}
+.radial-size{font-size:19px}
+.radial-size-long{font-size:13px}
+.radial-size-pair{font-size:15px;line-height:1}
+.card-quick-inline.is-compact .radial-size{font-size:16px}
+.card-quick-inline.is-compact .radial-size-long{font-size:10px}
+.card-quick-inline.is-compact .radial-size-pair{font-size:12px;line-height:1}
+@media(max-width:600px){.card-bottom{flex-wrap:wrap;row-gap:8px}.product-card .card-price,.product-card .card-price .od-nowrap{font-size:21px!important}}
+
+/* Product information contrasts with the handwritten brand lettering. */
+:is(.product-card,.product-info,.product-visual,.cart-item,.checkout-line,.size-guide-modal){--body:'Manrope Variable',Arial,sans-serif;--display:var(--body);--type-body:16px;--type-small:13px;--type-label:15px;--type-button:16px;--type-page-title:44px;font-family:var(--body)}
+:is(.product-card .card-body h3,.product-card .card-body h3 a,.product-card .card-title){font:500 16px/1.45 var(--body)!important}
+.product-card .card-price,.product-card .card-price .od-nowrap{font:600 17px/1.5 var(--body)!important}
+.product-card .card-meta{font:400 12px/1.5 var(--body)}
+.product-card .card-tag{font:600 11px/1.4 var(--body)}
+.product-card :is(.quick-head,.quick-size,.quick-size select,.quick-colors button,.quick-open){font-size:15px}
+.product-card .quick-feedback{font-size:13px}
+.product-info{font-size:16px}
+.product-info :is(.variant,.size-guide-link,.details summary,.variant-label strong){font-size:15px}
+.product-info :is(.stock-line,.photo-disclaimer){font-size:13px}
+.product-info .price{font-size:28px}
+.product-visual .gallery-caption{font-size:13px}
+.product-visual :is(.turn-description,.turn-material,.turn-sizes,.turn-material b,.turn-sizes b){font-size:16px}
+.product-visual .turn-return{font-size:13px}
+.cart-item h3,.checkout-line h3{font:500 16px/1.45 var(--body)}
+.cart-item :is(p,small),.checkout-line small{font-size:13px}
+.checkout-line-price{font:600 16px/1.5 var(--body)}
+.size-guide-modal :is(table,thead th,thead b){font-size:15px}
+@media(max-width:1000px){.product-info{--type-page-title:36px}}
+@media(max-width:600px){.product-info{--type-page-title:30px}.product-card .card-body h3,.product-card .card-body h3 a,.product-card .card-title{font-size:14px!important}.product-card .card-price,.product-card .card-price .od-nowrap{font-size:16px!important}}
+
+/* Small copy needs a reading face; handwriting is reserved for display/nav. */
+body{font-weight:400}
+:is(.breadcrumbs,.company-breadcrumbs,.legal-header>a,.checkout-header #back-store,.line-link,.company-text-link,.filter-options,.sort-field select,.category-tabs,.campaign-category,.checkout-signin,.checkout-note,.checkout-method p,.checkout-result p){font-size:15px}
+input:not([type=checkbox]):not([type=radio]):not([type=range]),textarea,select{font-size:16px}
+:is(.card-tag,.currency-context,.gallery-label,.filter-head button,.active-filter,.checkout-line small,.checkout-delivery small,.checkout-payment-option small,.checkout-card-brands span,.checkout-costs .muted,.checkout-step legend span,.footer-social-note,.footer-bottom){font-size:12px}
+.site-footer .footer-brand>p{font:400 14px/1.65 var(--body)}
+.site-footer .footer-brand>.footer-social-note,.site-footer .footer-bottom{font:400 12px/1.6 var(--body)}
+.category-shortcut-name,.campaign-categories a span,.collection-cover-nav a span{font-size:16px}
+.category-shortcut small,.category-shortcut-count,.results-bar>p,.carousel-position,.photo-disclaimer,.stock-line{font-size:13px}
+.cookie-consent p,.cookie-consent-actions button,.cookie-preferences-link{font-size:15px}
+.atelier-auth-tabs>button{font-size:15px}
+.atelier-auth-fine,.atelier-auth-edition,.atelier-auth-art-copy>span{font-size:12px}
+.atelier-auth .cl-formFieldLabel{font-size:14px!important}
+.atelier-auth :is(.atelier-clerk-input,.atelier-clerk-social,.atelier-clerk-submit){font-size:16px!important}
+.atelier-auth .cl-dividerText{font-size:12px!important}
+.atelier-auth :is(.cl-footerActionText,.cl-footerActionLink,.cl-formFieldErrorText,.cl-alertText,.cl-formFieldAction){font-size:14px!important}
+.legal-pages a,.legal-notice,.legal-notice p,.legal-highlights p,.legal-toc summary,.legal-toc nav a,.legal-action{font-size:15px}
+.legal-toc nav a span{font-size:13px}
+.checkout-step legend{font-size:18px}
+.checkout-costs>div,.checkout-total,.checkout-payment-option strong,.checkout-delivery{font-size:16px}
+
+/* Approved signup panel; the remaining design direction stays in local preview. */
+.site-footer .welcome-signup{background:var(--soft);padding:40px;gap:64px;margin-bottom:64px;border:1px solid #cbd2c6;align-items:center}
+.site-footer .welcome-signup::before{display:none}
+.site-footer .welcome-signup .motion-line-mask{padding:.18em .18em .2em;margin:-.18em -.18em -.2em}
+.site-footer .welcome-signup h2{font-size:48px!important;margin:12px 0 16px}
+.site-footer .welcome-signup .section-index{font-size:11px!important;margin:0}
+.site-footer .welcome-signup>div>p:last-child{max-width:38ch;font-weight:400!important}
+.site-footer .welcome-input-row button{min-height:54px}
+@media(min-width:601px) and (max-width:1000px){.site-footer .welcome-signup{padding:28px;gap:32px}}
+@media(max-width:600px){
+ .site-footer .welcome-signup{grid-template-columns:minmax(0,1fr);padding:28px 20px;gap:24px;margin-bottom:48px}
+ .site-footer .welcome-signup h2{font-size:40px!important}
+ .site-footer .welcome-input-row button{min-width:108px;font-size:13px!important;padding-inline:12px}
+}

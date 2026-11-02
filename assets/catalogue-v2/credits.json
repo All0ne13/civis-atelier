@@ -1,0 +1,351 @@
+{
+  "author": "AI-generated using OpenAI image generation",
+  "method": "Built-in image_gen with supplied original garment as design reference",
+  "disclosure": "Synthetic preview photography; product IDs, names, colors, sizes, prices and stock remain unchanged. Garment construction/graphics are illustrative, not authenticated product photography.",
+  "images": [
+    {
+      "id": "abstract-print-shirt",
+      "ref": "abstract-black.jpg",
+      "colors": [
+        "Black",
+        "Cream"
+      ],
+      "shape": "oversized short sleeve crew-neck T-shirt, preserve the distinctive fine cream line drawings of a bird, sun and botanical stems visible on the supplied garment",
+      "color": "Black",
+      "view": "front",
+      "prompt": "Use case: product-mockup. Create one polished e-commerce studio product photograph for a clearly disclosed design prototype, portrait 4:5. The supplied image is garment design reference, not a background or model reference. Subject: oversized short sleeve crew-neck T-shirt, preserve the distinctive fine cream line drawings of a bird, sun and botanical stems visible on the supplied garment. Garment main fabric color: deep neutral black; keep graphics and construction coherent with the reference. Straight-on full front view. Invisible mannequin with natural dimensional drape, entire garment including sleeves and hem (both full legs for jeans), centered with generous 12% clearance on all sides. Seamless cool light gray studio background #f1f2f0, soft diffuse directional premium light and subtle grounded shadow, realistic tactile fabric. No model, mannequin parts, hangers, props, writing, brand labels, watermarks, frame, collage, screen content or UI. Keep a consistent scale and photography direction across a sophisticated streetwear catalogue. This is synthetic preview imagery, not authenticated photography of the actual garment.",
+      "file": "assets/catalogue-v2/abstract-print-shirt-black-front.png",
+      "width": 1122,
+      "height": 1402,
+      "reference": "assets/products/abstract-black.jpg"
+    },
+    {
+      "id": "essential-cream",
+      "ref": "essential-cream.jpg",
+      "colors": [
+        "Cream",
+        "White"
+      ],
+      "shape": "plain relaxed short sleeve crew-neck cotton T-shirt, no print, preserve its clean neckline and proportions",
+      "color": "White",
+      "view": "front",
+      "prompt": "Use case: product-mockup. Create one polished e-commerce studio product photograph for a clearly disclosed design prototype, portrait 4:5. The supplied image is garment design reference, not a background or model reference. Subject: plain relaxed short sleeve crew-neck cotton T-shirt, no print, preserve its clean neckline and proportions. Garment main fabric color: clean neutral white; keep graphics and construction coherent with the reference. Straight-on full front view. Invisible mannequin with natural dimensional drape, entire garment including sleeves and hem (both full legs for jeans), centered with generous 12% clearance on all sides. Seamless cool light gray studio background #f1f2f0, soft diffuse directional premium light and subtle grounded shadow, realistic tactile fabric. No model, mannequin parts, hangers, props, writing, brand labels, watermarks, frame, collage, screen content or UI. Keep a consistent scale and photography direction across a sophisticated streetwear catalogue. This is synthetic preview imagery, not authenticated photography of the actual garment.",
+      "file": "assets/catalogue-v2/essential-cream-white-front.png",
+      "width": 1122,
+      "height": 1402,
+      "reference": "assets/products/essential-cream.jpg"
+    },
+    {
+      "id": "abstract-print-shirt",
+      "ref": "abstract-black.jpg",
+      "colors": [
+        "Black",
+        "Cream"
+      ],
+      "shape": "oversized short sleeve crew-neck T-shirt, preserve the distinctive fine cream line drawings of a bird, sun and botanical stems visible on the supplied garment",
+      "color": "Cream",
+      "view": "front",
+      "prompt": "Use case: product-mockup. Create one polished e-commerce studio product photograph for a clearly disclosed design prototype, portrait 4:5. The supplied image is garment design reference, not a background or model reference. Subject: oversized short sleeve crew-neck T-shirt, preserve the distinctive fine cream line drawings of a bird, sun and botanical stems visible on the supplied garment. Garment main fabric color: natural light cream; keep graphics and construction coherent with the reference. Straight-on full front view. Invisible mannequin with natural dimensional drape, entire garment including sleeves and hem (both full legs for jeans), centered with generous 12% clearance on all sides. Seamless cool light gray studio background #f1f2f0, soft diffuse directional premium light and subtle grounded shadow, realistic tactile fabric. No model, mannequin parts, hangers, props, writing, brand labels, watermarks, frame, collage, screen content or UI. Keep a consistent scale and photography direction across a sophisticated streetwear catalogue. This is synthetic preview imagery, not authenticated photography of the actual garment.",
+      "file": "assets/catalogue-v2/abstract-print-shirt-cream-front.png",
+      "width": 1122,
+      "height": 1402,
+      "reference": "assets/products/abstract-black.jpg"
+    },
+    {
+      "id": "abstract-print-shirt",
+      "ref": "abstract-black.jpg",
+      "colors": [
+        "Black",
+        "Cream"
+      ],
+      "shape": "oversized short sleeve crew-neck T-shirt, preserve the distinctive fine cream line drawings of a bird, sun and botanical stems visible on the supplied garment",
+      "color": "Black",
+      "view": "back",
+      "prompt": "Use case: product-mockup. Create one polished e-commerce studio product photograph for a clearly disclosed design prototype, portrait 4:5. The supplied image is garment design reference, not a background or model reference. Subject: oversized short sleeve crew-neck T-shirt, preserve the distinctive fine cream line drawings of a bird, sun and botanical stems visible on the supplied garment. Garment main fabric color: deep neutral black; keep graphics and construction coherent with the reference. Full back view, plausible continuation of the same garment; avoid invented rear branding or graphics. Invisible mannequin with natural dimensional drape, entire garment including sleeves and hem (both full legs for jeans), centered with generous 12% clearance on all sides. Seamless cool light gray studio background #f1f2f0, soft diffuse directional premium light and subtle grounded shadow, realistic tactile fabric. No model, mannequin parts, hangers, props, writing, brand labels, watermarks, frame, collage, screen content or UI. Keep a consistent scale and photography direction across a sophisticated streetwear catalogue. This is synthetic preview imagery, not authenticated photography of the actual garment.",
+      "file": "assets/catalogue-v2/abstract-print-shirt-black-back.png",
+      "width": 1122,
+      "height": 1402,
+      "reference": "assets/products/abstract-black.jpg"
+    },
+    {
+      "id": "heavy-black",
+      "ref": "heavy-black.jpg",
+      "colors": [
+        "Black"
+      ],
+      "shape": "substantial boxy short sleeve black cotton T-shirt with subtle ribbed/waffle texture and ribbed crew neck",
+      "color": "Black",
+      "view": "front",
+      "prompt": "Use case: product-mockup. Create one polished e-commerce studio product photograph for a clearly disclosed design prototype, portrait 4:5. The supplied image is garment design reference, not a background or model reference. Subject: substantial boxy short sleeve black cotton T-shirt with subtle ribbed/waffle texture and ribbed crew neck. Garment main fabric color: deep neutral black; keep graphics and construction coherent with the reference. Straight-on full front view. Invisible mannequin with natural dimensional drape, entire garment including sleeves and hem (both full legs for jeans), centered with generous 12% clearance on all sides. Seamless cool light gray studio background #f1f2f0, soft diffuse directional premium light and subtle grounded shadow, realistic tactile fabric. No model, mannequin parts, hangers, props, writing, brand labels, watermarks, frame, collage, screen content or UI. Keep a consistent scale and photography direction across a sophisticated streetwear catalogue. This is synthetic preview imagery, not authenticated photography of the actual garment.",
+      "file": "assets/catalogue-v2/heavy-black-black-front.png",
+      "width": 1122,
+      "height": 1402,
+      "reference": "assets/products/heavy-black.jpg"
+    },
+    {
+      "id": "essential-cream",
+      "ref": "essential-cream.jpg",
+      "colors": [
+        "Cream",
+        "White"
+      ],
+      "shape": "plain relaxed short sleeve crew-neck cotton T-shirt, no print, preserve its clean neckline and proportions",
+      "color": "Cream",
+      "view": "front",
+      "prompt": "Use case: product-mockup. Create one polished e-commerce studio product photograph for a clearly disclosed design prototype, portrait 4:5. The supplied image is garment design reference, not a background or model reference. Subject: plain relaxed short sleeve crew-neck cotton T-shirt, no print, preserve its clean neckline and proportions. Garment main fabric color: natural light cream; keep graphics and construction coherent with the reference. Straight-on full front view. Invisible mannequin with natural dimensional drape, entire garment including sleeves and hem (both full legs for jeans), centered with generous 12% clearance on all sides. Seamless cool light gray studio background #f1f2f0, soft diffuse directional premium light and subtle grounded shadow, realistic tactile fabric. No model, mannequin parts, hangers, props, writing, brand labels, watermarks, frame, collage, screen content or UI. Keep a consistent scale and photography direction across a sophisticated streetwear catalogue. This is synthetic preview imagery, not authenticated photography of the actual garment.",
+      "file": "assets/catalogue-v2/essential-cream-cream-front.png",
+      "width": 1122,
+      "height": 1402,
+      "reference": "assets/products/essential-cream.jpg"
+    },
+    {
+      "id": "heavy-black",
+      "ref": "heavy-black.jpg",
+      "colors": [
+        "Black"
+      ],
+      "shape": "substantial boxy short sleeve black cotton T-shirt with subtle ribbed/waffle texture and ribbed crew neck",
+      "color": "Black",
+      "view": "back",
+      "prompt": "Use case: product-mockup. Create one polished e-commerce studio product photograph for a clearly disclosed design prototype, portrait 4:5. The supplied image is garment design reference, not a background or model reference. Subject: substantial boxy short sleeve black cotton T-shirt with subtle ribbed/waffle texture and ribbed crew neck. Garment main fabric color: deep neutral black; keep graphics and construction coherent with the reference. Full back view, plausible continuation of the same garment; avoid invented rear branding or graphics. Invisible mannequin with natural dimensional drape, entire garment including sleeves and hem (both full legs for jeans), centered with generous 12% clearance on all sides. Seamless cool light gray studio background #f1f2f0, soft diffuse directional premium light and subtle grounded shadow, realistic tactile fabric. No model, mannequin parts, hangers, props, writing, brand labels, watermarks, frame, collage, screen content or UI. Keep a consistent scale and photography direction across a sophisticated streetwear catalogue. This is synthetic preview imagery, not authenticated photography of the actual garment.",
+      "file": "assets/catalogue-v2/heavy-black-black-back.png",
+      "width": 1122,
+      "height": 1402,
+      "reference": "assets/products/heavy-black.jpg"
+    },
+    {
+      "id": "seersucker-shirt",
+      "ref": "seersucker.jpg",
+      "colors": [
+        "Mint",
+        "White"
+      ],
+      "shape": "relaxed short sleeve open camp collar button shirt with large flowing dark-green abstract embroidered line shapes on seersucker textured fabric",
+      "color": "Mint",
+      "view": "front",
+      "prompt": "Use case: product-mockup. Create one polished e-commerce studio product photograph for a clearly disclosed design prototype, portrait 4:5. The supplied image is garment design reference, not a background or model reference. Subject: relaxed short sleeve open camp collar button shirt with large flowing dark-green abstract embroidered line shapes on seersucker textured fabric. Garment main fabric color: pale muted mint green; keep graphics and construction coherent with the reference. Straight-on full front view. Invisible mannequin with natural dimensional drape, entire garment including sleeves and hem (both full legs for jeans), centered with generous 12% clearance on all sides. Seamless cool light gray studio background #f1f2f0, soft diffuse directional premium light and subtle grounded shadow, realistic tactile fabric. No model, mannequin parts, hangers, props, writing, brand labels, watermarks, frame, collage, screen content or UI. Keep a consistent scale and photography direction across a sophisticated streetwear catalogue. This is synthetic preview imagery, not authenticated photography of the actual garment.",
+      "file": "assets/catalogue-v2/seersucker-shirt-mint-front.png",
+      "width": 1122,
+      "height": 1402,
+      "reference": "assets/products/seersucker.jpg"
+    },
+    {
+      "id": "botanical-shirt",
+      "ref": "botanical-shirt.jpg",
+      "colors": [
+        "Black",
+        "Olive"
+      ],
+      "shape": "relaxed short sleeve camp-collar button shirt, preserve the expressive large light botanical leaf print of the reference",
+      "color": "Black",
+      "view": "front",
+      "prompt": "Use case: product-mockup. Create one polished e-commerce studio product photograph for a clearly disclosed design prototype, portrait 4:5. The supplied image is garment design reference, not a background or model reference. Subject: relaxed short sleeve camp-collar button shirt, preserve the expressive large light botanical leaf print of the reference. Garment main fabric color: deep neutral black; keep graphics and construction coherent with the reference. Straight-on full front view. Invisible mannequin with natural dimensional drape, entire garment including sleeves and hem (both full legs for jeans), centered with generous 12% clearance on all sides. Seamless cool light gray studio background #f1f2f0, soft diffuse directional premium light and subtle grounded shadow, realistic tactile fabric. No model, mannequin parts, hangers, props, writing, brand labels, watermarks, frame, collage, screen content or UI. Keep a consistent scale and photography direction across a sophisticated streetwear catalogue. This is synthetic preview imagery, not authenticated photography of the actual garment.",
+      "file": "assets/catalogue-v2/botanical-shirt-black-front.png",
+      "width": 1122,
+      "height": 1402,
+      "reference": "assets/products/botanical-shirt.jpg"
+    },
+    {
+      "id": "seersucker-shirt",
+      "ref": "seersucker.jpg",
+      "colors": [
+        "Mint",
+        "White"
+      ],
+      "shape": "relaxed short sleeve open camp collar button shirt with large flowing dark-green abstract embroidered line shapes on seersucker textured fabric",
+      "color": "White",
+      "view": "front",
+      "prompt": "Use case: product-mockup. Create one polished e-commerce studio product photograph for a clearly disclosed design prototype, portrait 4:5. The supplied image is garment design reference, not a background or model reference. Subject: relaxed short sleeve open camp collar button shirt with large flowing dark-green abstract embroidered line shapes on seersucker textured fabric. Garment main fabric color: clean neutral white; keep graphics and construction coherent with the reference. Straight-on full front view. Invisible mannequin with natural dimensional drape, entire garment including sleeves and hem (both full legs for jeans), centered with generous 12% clearance on all sides. Seamless cool light gray studio background #f1f2f0, soft diffuse directional premium light and subtle grounded shadow, realistic tactile fabric. No model, mannequin parts, hangers, props, writing, brand labels, watermarks, frame, collage, screen content or UI. Keep a consistent scale and photography direction across a sophisticated streetwear catalogue. This is synthetic preview imagery, not authenticated photography of the actual garment.",
+      "file": "assets/catalogue-v2/seersucker-shirt-white-front.png",
+      "width": 1122,
+      "height": 1402,
+      "reference": "assets/products/seersucker.jpg"
+    },
+    {
+      "id": "botanical-shirt",
+      "ref": "botanical-shirt.jpg",
+      "colors": [
+        "Black",
+        "Olive"
+      ],
+      "shape": "relaxed short sleeve camp-collar button shirt, preserve the expressive large light botanical leaf print of the reference",
+      "color": "Olive",
+      "view": "front",
+      "prompt": "Use case: product-mockup. Create one polished e-commerce studio product photograph for a clearly disclosed design prototype, portrait 4:5. The supplied image is garment design reference, not a background or model reference. Subject: relaxed short sleeve camp-collar button shirt, preserve the expressive large light botanical leaf print of the reference. Garment main fabric color: muted olive green; keep graphics and construction coherent with the reference. Straight-on full front view. Invisible mannequin with natural dimensional drape, entire garment including sleeves and hem (both full legs for jeans), centered with generous 12% clearance on all sides. Seamless cool light gray studio background #f1f2f0, soft diffuse directional premium light and subtle grounded shadow, realistic tactile fabric. No model, mannequin parts, hangers, props, writing, brand labels, watermarks, frame, collage, screen content or UI. Keep a consistent scale and photography direction across a sophisticated streetwear catalogue. This is synthetic preview imagery, not authenticated photography of the actual garment.",
+      "file": "assets/catalogue-v2/botanical-shirt-olive-front.png",
+      "width": 1122,
+      "height": 1402,
+      "reference": "assets/products/botanical-shirt.jpg"
+    },
+    {
+      "id": "cotton-white",
+      "ref": "cotton-white.jpg",
+      "colors": [
+        "White",
+        "Cream"
+      ],
+      "shape": "clean plain short sleeve crew-neck cotton T-shirt, airy relaxed fit, no graphics",
+      "color": "White",
+      "view": "front",
+      "prompt": "Use case: product-mockup. Create one polished e-commerce studio product photograph for a clearly disclosed design prototype, portrait 4:5. The supplied image is garment design reference, not a background or model reference. Subject: clean plain short sleeve crew-neck cotton T-shirt, airy relaxed fit, no graphics. Garment main fabric color: clean neutral white; keep graphics and construction coherent with the reference. Straight-on full front view. Invisible mannequin with natural dimensional drape, entire garment including sleeves and hem (both full legs for jeans), centered with generous 12% clearance on all sides. Seamless cool light gray studio background #f1f2f0, soft diffuse directional premium light and subtle grounded shadow, realistic tactile fabric. No model, mannequin parts, hangers, props, writing, brand labels, watermarks, frame, collage, screen content or UI. Keep a consistent scale and photography direction across a sophisticated streetwear catalogue. This is synthetic preview imagery, not authenticated photography of the actual garment.",
+      "file": "assets/catalogue-v2/cotton-white-white-front.png",
+      "width": 1122,
+      "height": 1402,
+      "reference": "assets/products/cotton-white.jpg"
+    },
+    {
+      "id": "cotton-white",
+      "ref": "cotton-white.jpg",
+      "colors": [
+        "White",
+        "Cream"
+      ],
+      "shape": "clean plain short sleeve crew-neck cotton T-shirt, airy relaxed fit, no graphics",
+      "color": "Cream",
+      "view": "front",
+      "prompt": "Use case: product-mockup. Create one polished e-commerce studio product photograph for a clearly disclosed design prototype, portrait 4:5. The supplied image is garment design reference, not a background or model reference. Subject: clean plain short sleeve crew-neck cotton T-shirt, airy relaxed fit, no graphics. Garment main fabric color: natural light cream; keep graphics and construction coherent with the reference. Straight-on full front view. Invisible mannequin with natural dimensional drape, entire garment including sleeves and hem (both full legs for jeans), centered with generous 12% clearance on all sides. Seamless cool light gray studio background #f1f2f0, soft diffuse directional premium light and subtle grounded shadow, realistic tactile fabric. No model, mannequin parts, hangers, props, writing, brand labels, watermarks, frame, collage, screen content or UI. Keep a consistent scale and photography direction across a sophisticated streetwear catalogue. This is synthetic preview imagery, not authenticated photography of the actual garment.",
+      "file": "assets/catalogue-v2/cotton-white-cream-front.png",
+      "width": 1122,
+      "height": 1402,
+      "reference": "assets/products/cotton-white.jpg"
+    },
+    {
+      "id": "blurred-print",
+      "ref": "blurred-print.jpg",
+      "colors": [
+        "Cream",
+        "Olive"
+      ],
+      "shape": "relaxed short sleeve crew-neck T-shirt with large blurred dark botanical silhouettes concentrated on the right front, matching the supplied reference",
+      "color": "Olive",
+      "view": "front",
+      "prompt": "Use case: product-mockup. Create one polished e-commerce studio product photograph for a clearly disclosed design prototype, portrait 4:5. The supplied image is garment design reference, not a background or model reference. Subject: relaxed short sleeve crew-neck T-shirt with large blurred dark botanical silhouettes concentrated on the right front, matching the supplied reference. Garment main fabric color: muted olive green; keep graphics and construction coherent with the reference. Straight-on full front view. Invisible mannequin with natural dimensional drape, entire garment including sleeves and hem (both full legs for jeans), centered with generous 12% clearance on all sides. Seamless cool light gray studio background #f1f2f0, soft diffuse directional premium light and subtle grounded shadow, realistic tactile fabric. No model, mannequin parts, hangers, props, writing, brand labels, watermarks, frame, collage, screen content or UI. Keep a consistent scale and photography direction across a sophisticated streetwear catalogue. This is synthetic preview imagery, not authenticated photography of the actual garment.",
+      "file": "assets/catalogue-v2/blurred-print-olive-front.png",
+      "width": 1122,
+      "height": 1402,
+      "reference": "assets/products/blurred-print.jpg"
+    },
+    {
+      "id": "seersucker-shirt",
+      "ref": "seersucker.jpg",
+      "colors": [
+        "Mint",
+        "White"
+      ],
+      "shape": "relaxed short sleeve open camp collar button shirt with large flowing dark-green abstract embroidered line shapes on seersucker textured fabric",
+      "color": "Mint",
+      "view": "back",
+      "prompt": "Use case: product-mockup. Create one polished e-commerce studio product photograph for a clearly disclosed design prototype, portrait 4:5. The supplied image is garment design reference, not a background or model reference. Subject: relaxed short sleeve open camp collar button shirt with large flowing dark-green abstract embroidered line shapes on seersucker textured fabric. Garment main fabric color: pale muted mint green; keep graphics and construction coherent with the reference. Full back view, plausible continuation of the same garment; avoid invented rear branding or graphics. Invisible mannequin with natural dimensional drape, entire garment including sleeves and hem (both full legs for jeans), centered with generous 12% clearance on all sides. Seamless cool light gray studio background #f1f2f0, soft diffuse directional premium light and subtle grounded shadow, realistic tactile fabric. No model, mannequin parts, hangers, props, writing, brand labels, watermarks, frame, collage, screen content or UI. Keep a consistent scale and photography direction across a sophisticated streetwear catalogue. This is synthetic preview imagery, not authenticated photography of the actual garment.",
+      "file": "assets/catalogue-v2/seersucker-shirt-mint-back.png",
+      "width": 1122,
+      "height": 1402,
+      "reference": "assets/products/seersucker.jpg"
+    },
+    {
+      "id": "zipper-shirt",
+      "ref": "zipper-shirt.jpg",
+      "colors": [
+        "Cream"
+      ],
+      "shape": "relaxed light cream shirt with simple fine black grid lines and small botanical line graphics, preserve the actual short sleeve silhouette of the reference even though its catalogue name says Full Sleeve",
+      "color": "Cream",
+      "view": "front",
+      "prompt": "Use case: product-mockup. Create one polished e-commerce studio product photograph for a clearly disclosed design prototype, portrait 4:5. The supplied image is garment design reference, not a background or model reference. Subject: relaxed light cream shirt with simple fine black grid lines and small botanical line graphics, preserve the actual short sleeve silhouette of the reference even though its catalogue name says Full Sleeve. Garment main fabric color: natural light cream; keep graphics and construction coherent with the reference. Straight-on full front view. Invisible mannequin with natural dimensional drape, entire garment including sleeves and hem (both full legs for jeans), centered with generous 12% clearance on all sides. Seamless cool light gray studio background #f1f2f0, soft diffuse directional premium light and subtle grounded shadow, realistic tactile fabric. No model, mannequin parts, hangers, props, writing, brand labels, watermarks, frame, collage, screen content or UI. Keep a consistent scale and photography direction across a sophisticated streetwear catalogue. This is synthetic preview imagery, not authenticated photography of the actual garment.",
+      "file": "assets/catalogue-v2/zipper-shirt-cream-front.png",
+      "width": 1122,
+      "height": 1402,
+      "reference": "assets/products/zipper-shirt.jpg"
+    },
+    {
+      "id": "blurred-print",
+      "ref": "blurred-print.jpg",
+      "colors": [
+        "Cream",
+        "Olive"
+      ],
+      "shape": "relaxed short sleeve crew-neck T-shirt with large blurred dark botanical silhouettes concentrated on the right front, matching the supplied reference",
+      "color": "Cream",
+      "view": "front",
+      "prompt": "Use case: product-mockup. Create one polished e-commerce studio product photograph for a clearly disclosed design prototype, portrait 4:5. The supplied image is garment design reference, not a background or model reference. Subject: relaxed short sleeve crew-neck T-shirt with large blurred dark botanical silhouettes concentrated on the right front, matching the supplied reference. Garment main fabric color: natural light cream; keep graphics and construction coherent with the reference. Straight-on full front view. Invisible mannequin with natural dimensional drape, entire garment including sleeves and hem (both full legs for jeans), centered with generous 12% clearance on all sides. Seamless cool light gray studio background #f1f2f0, soft diffuse directional premium light and subtle grounded shadow, realistic tactile fabric. No model, mannequin parts, hangers, props, writing, brand labels, watermarks, frame, collage, screen content or UI. Keep a consistent scale and photography direction across a sophisticated streetwear catalogue. This is synthetic preview imagery, not authenticated photography of the actual garment.",
+      "file": "assets/catalogue-v2/blurred-print-cream-front.png",
+      "width": 1122,
+      "height": 1402,
+      "reference": "assets/products/blurred-print.jpg"
+    },
+    {
+      "id": "zipper-shirt",
+      "ref": "zipper-shirt.jpg",
+      "colors": [
+        "Cream"
+      ],
+      "shape": "relaxed light cream shirt with simple fine black grid lines and small botanical line graphics, preserve the actual short sleeve silhouette of the reference even though its catalogue name says Full Sleeve",
+      "color": "Cream",
+      "view": "back",
+      "prompt": "Use case: product-mockup. Create one polished e-commerce studio product photograph for a clearly disclosed design prototype, portrait 4:5. The supplied image is garment design reference, not a background or model reference. Subject: relaxed light cream shirt with simple fine black grid lines and small botanical line graphics, preserve the actual short sleeve silhouette of the reference even though its catalogue name says Full Sleeve. Garment main fabric color: natural light cream; keep graphics and construction coherent with the reference. Full back view, plausible continuation of the same garment; avoid invented rear branding or graphics. Invisible mannequin with natural dimensional drape, entire garment including sleeves and hem (both full legs for jeans), centered with generous 12% clearance on all sides. Seamless cool light gray studio background #f1f2f0, soft diffuse directional premium light and subtle grounded shadow, realistic tactile fabric. No model, mannequin parts, hangers, props, writing, brand labels, watermarks, frame, collage, screen content or UI. Keep a consistent scale and photography direction across a sophisticated streetwear catalogue. This is synthetic preview imagery, not authenticated photography of the actual garment.",
+      "file": "assets/catalogue-v2/zipper-shirt-cream-back.png",
+      "width": 1122,
+      "height": 1402,
+      "reference": "assets/products/zipper-shirt.jpg"
+    },
+    {
+      "id": "straight-jeans",
+      "ref": "summer-white.jpg",
+      "colors": [
+        "White"
+      ],
+      "shape": "white soft-wash straight-leg jeans; reference is a clothed model: isolate and faithfully interpret ONLY the white trousers, waistband, pockets and complete two straight legs, no shirt, boots or person",
+      "color": "White",
+      "view": "back",
+      "prompt": "Use case: product-mockup. Create one polished e-commerce studio product photograph for a clearly disclosed design prototype, portrait 4:5. The supplied image is garment design reference, not a background or model reference. Subject: white soft-wash straight-leg jeans; reference is a clothed model: isolate and faithfully interpret ONLY the white trousers, waistband, pockets and complete two straight legs, no shirt, boots or person. Garment main fabric color: clean neutral white; keep graphics and construction coherent with the reference. Full back view, plausible continuation of the same garment; avoid invented rear branding or graphics. Invisible mannequin with natural dimensional drape, entire garment including sleeves and hem (both full legs for jeans), centered with generous 12% clearance on all sides. Seamless cool light gray studio background #f1f2f0, soft diffuse directional premium light and subtle grounded shadow, realistic tactile fabric. No model, mannequin parts, hangers, props, writing, brand labels, watermarks, frame, collage, screen content or UI. Keep a consistent scale and photography direction across a sophisticated streetwear catalogue. This is synthetic preview imagery, not authenticated photography of the actual garment.",
+      "file": "assets/catalogue-v2/straight-jeans-white-back.png",
+      "width": 1122,
+      "height": 1402,
+      "reference": "assets/products/summer-white.jpg"
+    },
+    {
+      "id": "straight-jeans",
+      "ref": "summer-white.jpg",
+      "colors": [
+        "White"
+      ],
+      "shape": "white soft-wash straight-leg jeans; reference is a clothed model: isolate and faithfully interpret ONLY the white trousers, waistband, pockets and complete two straight legs, no shirt, boots or person",
+      "color": "White",
+      "view": "front",
+      "prompt": "Use case: product-mockup. Create one polished e-commerce studio product photograph for a clearly disclosed design prototype, portrait 4:5. The supplied image is garment design reference, not a background or model reference. Subject: white soft-wash straight-leg jeans; reference is a clothed model: isolate and faithfully interpret ONLY the white trousers, waistband, pockets and complete two straight legs, no shirt, boots or person. Garment main fabric color: clean neutral white; keep graphics and construction coherent with the reference. Straight-on full front view. Invisible mannequin with natural dimensional drape, entire garment including sleeves and hem (both full legs for jeans), centered with generous 12% clearance on all sides. Seamless cool light gray studio background #f1f2f0, soft diffuse directional premium light and subtle grounded shadow, realistic tactile fabric. No model, mannequin parts, hangers, props, writing, brand labels, watermarks, frame, collage, screen content or UI. Keep a consistent scale and photography direction across a sophisticated streetwear catalogue. This is synthetic preview imagery, not authenticated photography of the actual garment.",
+      "file": "assets/catalogue-v2/straight-jeans-white-front.png",
+      "width": 1122,
+      "height": 1402,
+      "reference": "assets/products/summer-white.jpg"
+    },
+    {
+      "id": "techwear-hoodie",
+      "ref": "techwear-hoodie.png",
+      "colors": [
+        "Petrol"
+      ],
+      "shape": "oversized deep petrol green techwear hoodie, sculptural layered high collar, generous hood, long sleeves, rib cuffs, kangaroo pocket. Reference is an old screen: isolate ONLY the hoodie, no person, cap, mask, text, graphics, guides or old UI; no chest lettering",
+      "color": "Petrol",
+      "view": "front",
+      "prompt": "Use case: product-mockup. Create one polished e-commerce studio product photograph for a clearly disclosed design prototype, portrait 4:5. The supplied image is garment design reference, not a background or model reference. Subject: oversized deep petrol green techwear hoodie, sculptural layered high collar, generous hood, long sleeves, rib cuffs, kangaroo pocket. Reference is an old screen: isolate ONLY the hoodie, no person, cap, mask, text, graphics, guides or old UI; no chest lettering. Garment main fabric color: deep petrol teal green; keep graphics and construction coherent with the reference. Straight-on full front view. Invisible mannequin with natural dimensional drape, entire garment including sleeves and hem (both full legs for jeans), centered with generous 12% clearance on all sides. Seamless cool light gray studio background #f1f2f0, soft diffuse directional premium light and subtle grounded shadow, realistic tactile fabric. No model, mannequin parts, hangers, props, writing, brand labels, watermarks, frame, collage, screen content or UI. Keep a consistent scale and photography direction across a sophisticated streetwear catalogue. This is synthetic preview imagery, not authenticated photography of the actual garment.",
+      "file": "assets/catalogue-v2/techwear-hoodie-petrol-front.png",
+      "width": 1122,
+      "height": 1402,
+      "reference": "assets/products/techwear-hoodie.png"
+    },
+    {
+      "id": "techwear-hoodie",
+      "ref": "techwear-hoodie.png",
+      "colors": [
+        "Petrol"
+      ],
+      "shape": "oversized deep petrol green techwear hoodie, sculptural layered high collar, generous hood, long sleeves, rib cuffs, kangaroo pocket. Reference is an old screen: isolate ONLY the hoodie, no person, cap, mask, text, graphics, guides or old UI; no chest lettering",
+      "color": "Petrol",
+      "view": "back",
+      "prompt": "Use case: product-mockup. Create one polished e-commerce studio product photograph for a clearly disclosed design prototype, portrait 4:5. The supplied image is garment design reference, not a background or model reference. Subject: oversized deep petrol green techwear hoodie, sculptural layered high collar, generous hood, long sleeves, rib cuffs, kangaroo pocket. Reference is an old screen: isolate ONLY the hoodie, no person, cap, mask, text, graphics, guides or old UI; no chest lettering. Garment main fabric color: deep petrol teal green; keep graphics and construction coherent with the reference. Full back view, plausible continuation of the same garment; avoid invented rear branding or graphics. Invisible mannequin with natural dimensional drape, entire garment including sleeves and hem (both full legs for jeans), centered with generous 12% clearance on all sides. Seamless cool light gray studio background #f1f2f0, soft diffuse directional premium light and subtle grounded shadow, realistic tactile fabric. No model, mannequin parts, hangers, props, writing, brand labels, watermarks, frame, collage, screen content or UI. Keep a consistent scale and photography direction across a sophisticated streetwear catalogue. This is synthetic preview imagery, not authenticated photography of the actual garment.",
+      "file": "assets/catalogue-v2/techwear-hoodie-petrol-back.png",
+      "width": 1122,
+      "height": 1402,
+      "reference": "assets/products/techwear-hoodie.png"
+    }
+  ]
+}

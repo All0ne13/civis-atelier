@@ -1,0 +1,15 @@
+# Lighthouse trace investigation — 27 October 2026
+
+The reported `NO_NAVSTART` is an invalid measurement, not a performance score. In Lighthouse 13.5.0 with Chrome 156.0.8078.47, a clean-profile production navigation returned Performance 97 / Accessibility 100 / Best Practices 100 / SEO 100 (FCP 1.263 s, LCP 2.313 s, TBT 118 ms, CLS 0). A second standard run returned Performance 91 with the other categories still 100 (FCP 1.841 s, LCP 2.735 s, TBT 223.5 ms, CLS 0). These are individual mobile lab runs, not guarantees or field percentiles.
+
+The same recorder failure was reproduced on `/about`, which does not load the storefront SPA or either carousel. The failed trace contains `TracingStartedInBrowser`, the committed main frame and its `firstContentfulPaint`, but no main-frame `navigationStart` with a document URL. Lighthouse throws `NO_NAVSTART` when that event is absent. There were no application exceptions in responsive checks.
+
+An isolated diagnostic preserving all launcher defaults except restoring Chrome's RenderDocument feature completed on `/about`. That single feature experiment is evidence for investigating the browser/launcher recording path; its score is not a standard before/after performance comparison and does not prove a universal fix. No browser-feature workaround or weakened security headers were deployed to the website. Raw traces and all successful/failed reports remain in the ignored local verification directory.
+
+The real site defect visible in the screenshot was addressed separately: the campaign no longer animates already-rendered initial content, and slide text never animates from transparent to opaque. A short movement transition remains on actual changes. The campaign CTA's real URL now matches the current category and locale. Browser tests check the actual timed rotation at 393/820/1440 px, startup animation absence, text opacity throughout transitions, and category navigation. All 29 automated tests pass.
+
+After deploying the campaign fix, the single standard clean-profile production audit still returned `NO_NAVSTART` with a null Performance score; Accessibility, Best Practices and SEO remained 100. The site change therefore does **not** resolve or claim to resolve the browser recording failure. The 91–97 baseline scores above were measured before this deployment. The local runner now reports null scores and runtime errors explicitly rather than printing a misleading zero.
+
+For manual audits, use a fresh Chrome Guest profile without extensions. Preserve reports that contain `runtimeError`; do not convert a null score to zero or treat those runs as valid timing measurements. A clean repeat can complete, but a website deployment cannot guarantee the browser recorder never fails.
+
+References: [Lighthouse architecture](https://github.com/GoogleChrome/lighthouse/blob/main/docs/architecture.md), [related browser/launcher investigation](https://github.com/GoogleChrome/lighthouse/issues/17148). The linked issue discusses related recording/rendering problems and is not proof that every `NO_NAVSTART` has the same cause.

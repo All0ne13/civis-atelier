@@ -1,0 +1,37 @@
+{
+  "purpose": "Synthetic test images explicitly requested for the isolated Civis Atelier prototype gallery",
+  "method": "image_gen image edit with user-supplied original garment photo as reference",
+  "author": "AI-generated using OpenAI image generation",
+  "license": "Generated preview assets; referenced original photographs retain their original, unspecified rights",
+  "disclosure": "Not authentic additional product angles. Original supplied photograph remains first. No catalogue facts, colors, prices or stock changed.",
+  "images": [
+    {
+      "file": "essential-cream-back-demo.png",
+      "reference": "../products/essential-cream.jpg",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create one photorealistic e-commerce TEST product photograph, portrait 4:5. Reference image: the supplied cream plain short sleeve cotton T-shirt; use only its garment as visual reference, not the model. Show a plausible back view of this unbranded natural cream T-shirt, invisible mannequin, full garment including all sleeves and hem, centered with generous clearance, very pale cool gray seamless studio background, soft diffuse premium fashion lighting, natural fabric detail, no text, no logo, no watermark, no person. This is synthetic placeholder photography for a clearly labeled prototype gallery, not evidence of the actual product."
+    },
+    {
+      "file": "essential-cream-flatlay-demo.png",
+      "reference": "../products/essential-cream.jpg",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create one photorealistic e-commerce TEST product photograph, portrait 4:5. Reference image: use the supplied natural cream plain T-shirt as garment color and basic shape reference. Photograph the entire cream short sleeve crew-neck T-shirt lying flat, front view, neatly arranged with natural soft folds, include complete sleeves and hem, ample space around the garment, very pale cool gray seamless surface, restrained premium editorial studio light. No person, no cap, no props, no writing, no logos, no watermark. Synthetic placeholder image for a prototype gallery; do not imply exact manufacturing details."
+    },
+    {
+      "file": "heavy-black-back-demo.png",
+      "reference": "../products/heavy-black.jpg",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create one photorealistic e-commerce TEST product photograph, portrait 4:5. Reference image: use only the supplied heavy black textured short-sleeve crew neck T-shirt as visual garment reference. Show a plausible back view on an invisible mannequin, complete entire T-shirt with sleeves and hem fully visible and generous margin, substantial cotton drape and subtle ribbed texture, very pale cool gray seamless studio background, soft diffuse premium fashion lighting. No person, no glasses, no pants, no brand marks, no text, no watermark. Clearly this will be labeled synthetic demo photography in a prototype, not an authentic extra angle."
+    },
+    {
+      "file": "heavy-black-flatlay-demo.png",
+      "reference": "../products/heavy-black.jpg",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create one photorealistic e-commerce TEST product photograph, portrait 4:5. Reference image: use the supplied heavy black short sleeve T-shirt, its crew neck, dark tone and subtle textured fabric as a visual reference. Full front flat-lay view of the entire black T-shirt, neat slightly sculptural natural folds, all sleeves and hem visible, generous margin, very pale cool gray seamless surface and soft directional editorial lighting. No model, no props, no text, no logos, no watermark. A synthetic test asset for a prototype gallery, not an assertion about actual production details."
+    }
+  ]
+}

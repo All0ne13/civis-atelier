@@ -1,0 +1,212 @@
+[
+  {
+    "id": "abstract-print-shirt",
+    "name": "Abstract Print Shirt",
+    "category": "T-shirts",
+    "collection": "Men",
+    "price": 9900,
+    "image": "abstract-black",
+    "colors": [
+      "Black",
+      "Cream"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "stock": 12,
+    "isNew": true,
+    "description": "An easy, oversized silhouette with a botanical print. Soft cotton, a classic crew neck and room to move. Made for everyday wear."
+  },
+  {
+    "id": "essential-cream",
+    "name": "Basic Slim Fit T-Shirt",
+    "category": "T-shirts",
+    "collection": "Men",
+    "price": 5900,
+    "image": "essential-cream",
+    "colors": [
+      "Cream",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": 20,
+    "isNew": true,
+    "description": "A considered everyday essential in soft cotton. Relaxed shoulders, a clean neckline and a natural cream finish."
+  },
+  {
+    "id": "heavy-black",
+    "name": "Basic Heavy Weight T-Shirt",
+    "category": "T-shirts",
+    "collection": "Men",
+    "price": 7900,
+    "image": "heavy-black",
+    "colors": [
+      "Black"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "stock": 9,
+    "isNew": false,
+    "description": "Substantial cotton with a structured drape. An understated staple, finished with a ribbed crew neck."
+  },
+  {
+    "id": "botanical-shirt",
+    "name": "Botanical Camp Collar Shirt",
+    "category": "Shirts",
+    "collection": "Men",
+    "price": 11900,
+    "image": "botanical-shirt",
+    "colors": [
+      "Black",
+      "Olive"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": 7,
+    "isNew": true,
+    "description": "A relaxed camp collar and an expressive botanical print. An effortless layer for warmer days."
+  },
+  {
+    "id": "seersucker-shirt",
+    "name": "Embroidered Seersucker Shirt",
+    "category": "Shirts",
+    "collection": "Women",
+    "price": 9900,
+    "image": "seersucker",
+    "colors": [
+      "Mint",
+      "White"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "stock": 8,
+    "isNew": true,
+    "description": "Light texture, flowing lines. A relaxed shirt with abstract embroidery and an easy, airy feel."
+  },
+  {
+    "id": "cotton-white",
+    "name": "Essential Cotton T-Shirt",
+    "category": "T-shirts",
+    "collection": "Women",
+    "price": 4900,
+    "image": "cotton-white",
+    "colors": [
+      "White",
+      "Cream"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": 24,
+    "isNew": true,
+    "description": "A fresh white tee in breathable cotton. Clean lines and a timeless shape for your everyday wardrobe."
+  },
+  {
+    "id": "blurred-print",
+    "name": "Blurred Print T-Shirt",
+    "category": "T-shirts",
+    "collection": "Women",
+    "price": 6900,
+    "image": "blurred-print",
+    "colors": [
+      "Cream",
+      "Olive"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "stock": 0,
+    "isNew": true,
+    "description": "An expressive blurred print on a soft cream base. A relaxed fit with a contemporary feel."
+  },
+  {
+    "id": "zipper-shirt",
+    "name": "Full Sleeve Zipper Shirt",
+    "category": "Shirts",
+    "collection": "Kids",
+    "price": 5900,
+    "image": "zipper-shirt",
+    "colors": [
+      "Cream"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ],
+    "stock": 6,
+    "isNew": true,
+    "description": "An easy-to-style shirt with a playful graphic. A comfortable, relaxed silhouette."
+  },
+  {
+    "id": "straight-jeans",
+    "name": "Soft Wash Straight Fit Jeans",
+    "category": "Jeans",
+    "collection": "Men",
+    "price": 12900,
+    "image": "summer-white",
+    "colors": [
+      "White"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": 10,
+    "isNew": false,
+    "description": "A straight-leg essential in a soft, light finish. Designed to pair with everything in your wardrobe."
+  },
+  {
+    "id": "techwear-hoodie",
+    "name": "Techwear Hoodie",
+    "category": "Hoodies",
+    "collection": "Men",
+    "price": 15900,
+    "image": "techwear-hoodie",
+    "colors": [
+      "Petrol"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": 8,
+    "isNew": true,
+    "description": "A statement techwear hoodie with a layered collar, a generous hood and a sculptural, relaxed silhouette."
+  }
+]

@@ -1,0 +1,94 @@
+.atelier-auth{width:min(1000px,calc(100vw - 64px));max-width:100%;max-height:calc(100dvh - 64px);padding:0;border:1px solid #ffffff40;background:#f7f8f4;color:#18211c;overflow:auto;box-shadow:0 28px 100px #08160e40;overscroll-behavior:contain;animation:atelier-dialog-in .22s ease-out}
+.atelier-auth::backdrop{background:#101c17a8;backdrop-filter:blur(7px)}
+.atelier-auth-layout{display:grid;grid-template-columns:.88fr 1.12fr;min-height:640px}
+.atelier-auth-art{position:relative;min-width:0;overflow:hidden;background:#20372c;color:#f7f8f4}
+.atelier-auth-art>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.atelier-auth-art:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,#08160d35,transparent 30%,#0c1b13c4)}
+.atelier-auth-edition{position:absolute;z-index:1;top:28px;left:28px;font-size:10px;letter-spacing:.15em}
+.atelier-auth-art-copy{position:absolute;z-index:1;inset:auto 32px 36px}
+.atelier-auth-art-copy>span{font-size:9px;letter-spacing:.16em}
+.atelier-auth-art-copy>p{font:700 36px/1.15 var(--display);text-transform:uppercase;letter-spacing:-.015em;margin:16px 0 0}
+.atelier-auth-panel{position:relative;min-width:0;padding:32px 48px 24px}
+.atelier-auth-close{display:grid;place-items:center;width:44px;height:44px;position:absolute;right:16px;top:16px;z-index:3;border:1px solid transparent;color:#273a2f;border-radius:50%;background:#f7f8f4b3;transition:background .18s,border-color .18s}
+.atelier-auth-close:hover{background:#e8ece4;border-color:#d2d9cf}
+.atelier-auth-logo{width:132px;height:52px;object-fit:contain;margin:0 0 24px}
+.atelier-auth-tabs{display:flex;gap:28px;border-bottom:1px solid #dce1d6}
+.atelier-auth-tabs>button{font-size:13px;min-height:40px;color:#7b8178;border-bottom:2px solid transparent;margin-bottom:-1px;padding:0 0 10px}
+.atelier-auth-tabs>button[aria-pressed=true]{border-color:#294e3c;color:#18211c;font-weight:600}
+.atelier-auth-heading{margin:28px 0 24px}
+.atelier-auth-heading h2{font-family:var(--display,'Oswald Variable',sans-serif);font-size:clamp(30px,3vw,44px);line-height:1.06;text-transform:uppercase;letter-spacing:-.025em}
+.atelier-auth-fine{margin-top:20px;font-size:10px;line-height:1.7;color:#7b8178;padding-top:16px;border-top:1px solid #dce1d6}
+.atelier-auth-fine a{text-decoration:underline;text-underline-offset:3px;color:#294e3c}
+.atelier-clerk-root,.atelier-clerk-box{width:100%!important;max-width:100%!important;background:transparent!important;box-shadow:none!important;border:0!important;border-radius:0!important}
+.atelier-clerk-card{padding:0!important;background:transparent!important;box-shadow:none!important;border:0!important;gap:20px!important}
+.atelier-auth .cl-signIn-start .cl-header,.atelier-auth .cl-signUp-start .cl-header{display:none}
+.atelier-clerk-title{font-family:var(--body)!important;font-size:20px!important;color:var(--ink)!important}
+.atelier-clerk-subtitle{font-size:12px!important;line-height:1.6!important}
+.atelier-clerk-input{min-height:48px!important;border:1px solid #d6ddcf!important;box-shadow:none!important;border-radius:2px!important;font-size:14px!important;background:#fff!important}
+.atelier-clerk-input:focus{border-color:#294e3c!important;box-shadow:0 0 0 3px #294e3c12!important}
+.atelier-clerk-social{min-height:48px!important;border:1px solid #cdd5c6!important;box-shadow:none!important;background:#f7f8f4!important;border-radius:2px!important;color:#18211c!important}
+.atelier-clerk-social:hover{background:#eaf0e5!important}
+.atelier-clerk-submit{min-height:48px!important;background:#294e3c!important;color:#fff!important;border-radius:2px!important;box-shadow:none!important;font-size:13px!important;letter-spacing:.02em!important}
+.atelier-clerk-submit:hover{background:#182d21!important}
+.atelier-clerk-footer{background:transparent!important;box-shadow:none!important;border:0!important;padding:16px 0 0!important}
+.atelier-clerk-footer-action{padding:0!important;font-size:12px!important}
+/* Keep account-switching links; omit provider diagnostics from the store UI.
+   This is presentation only: Clerk's environment and billing settings are unchanged. */
+.atelier-auth .cl-footerItem{display:none!important}
+.atelier-auth .cl-badge,.atelier-auth .cl-lastAuthenticationStrategyBadge{display:none!important}
+.atelier-auth .cl-formFieldLabel{font-size:12px!important;font-weight:500!important}
+.atelier-auth .cl-dividerText{font-size:10px!important;color:#8c9386!important}
+.atelier-auth .cl-footerActionLink,.atelier-auth .cl-formFieldAction{color:#294e3c!important}
+.atelier-auth .cl-socialButtonsBlockButtonText{font-weight:500!important}
+.atelier-auth .cl-main{gap:20px!important}.atelier-auth .cl-form{gap:18px!important}
+.atelier-auth-compact{width:min(460px,calc(100vw - 32px))}
+.atelier-signout{position:relative;padding:48px 36px 32px}
+.atelier-auth-kicker{font-size:10px;letter-spacing:.13em;color:#75816f;margin-bottom:20px}
+.atelier-signout h2{font-family:var(--display,'Oswald Variable',sans-serif);font-size:38px;text-transform:uppercase;margin-bottom:16px}
+.atelier-signout>p:not(.atelier-auth-kicker){font-size:14px;color:#737a70;line-height:1.7;margin-bottom:28px}
+.atelier-auth-primary,.atelier-auth-secondary{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 20px;border:1px solid #294e3c;font:600 14px/1.5 var(--body)}
+.atelier-auth-primary{background:#294e3c;color:white}.atelier-auth-primary:hover{background:#182d21}
+.atelier-auth-secondary{border-color:#d3dacb;color:#294e3c;background:transparent}.atelier-auth-secondary:hover{background:#eaf0e5}
+.atelier-signout>.atelier-auth-primary,.atelier-signout>.atelier-auth-secondary{width:100%;margin-top:8px}
+.atelier-profile{padding:48px var(--gutter)}
+.atelier-profile-heading{display:flex;gap:32px;justify-content:space-between;align-items:center;margin-bottom:40px;border-bottom:1px solid var(--line);padding-bottom:32px}
+.atelier-profile h1{font-family:var(--display);font-size:48px;text-transform:uppercase;margin-bottom:12px}
+.atelier-profile-heading>div>p:last-child{font-size:14px;color:#737a70}
+.atelier-profile-actions{display:flex;gap:12px;flex-wrap:wrap}
+.atelier-profile #clerk-profile{max-width:100%;overflow:auto}.atelier-profile .cl-rootBox{width:100%;max-width:100%}
+@keyframes atelier-dialog-in{from{opacity:0;transform:translateY(12px) scale(.985)}to{opacity:1;transform:none}}
+@media(max-width:760px){.atelier-auth{width:min(460px,calc(100vw - 24px));max-height:calc(100dvh - 24px)}.atelier-auth-layout{display:block;min-height:0}.atelier-auth-art{display:none}.atelier-auth-panel{padding:28px 24px 20px}.atelier-auth-logo{width:116px;height:44px;margin-bottom:20px}.atelier-auth-heading{margin:24px 0}.atelier-auth-heading h2{font-size:36px}.atelier-auth-tabs{gap:24px}.atelier-auth-close{right:8px;top:12px}.atelier-profile{padding:24px var(--gutter)}.atelier-profile-heading{align-items:flex-start;flex-direction:column;gap:20px}.atelier-profile h1{font-size:36px}.atelier-profile-actions{width:100%}.atelier-profile-actions>*{flex:1}.atelier-signout{padding:48px 24px 24px}}
+@media(prefers-reduced-motion:reduce){.atelier-auth{animation:none}}
+.account-orders{margin-bottom:40px}.account-orders h2{font-size:22px;margin-bottom:20px}.account-orders>p{font-size:13px;color:var(--muted)}.account-order{display:flex;gap:20px;justify-content:space-between;align-items:center;padding:16px 0;border-top:1px solid var(--line);font-size:13px}.account-order small{display:block;font-size:11px;color:var(--muted);margin-top:6px}@media(max-width:600px){.account-order{gap:12px;font-size:11px;flex-wrap:wrap}.account-order strong{margin-left:auto}}
+/* Login and registration share one fixed frame; only form content scrolls. */
+.atelier-auth{font-family:var(--body);background:var(--paper)}
+.atelier-auth:not(.atelier-auth-compact){width:min(1000px,calc(100vw - 48px));height:min(780px,calc(100dvh - 48px));max-height:calc(100dvh - 48px);overflow:hidden}
+.atelier-auth-layout{height:100%;min-height:0}
+.atelier-auth-panel{height:100%;min-height:0;display:flex;flex-direction:column;padding:28px 40px 24px;overflow:hidden}
+.atelier-auth-logo{flex:none;margin-bottom:20px}
+.atelier-auth-tabs{flex:none;gap:24px;border-color:var(--line)}
+.atelier-auth-tabs>button{font:500 14px/1.5 var(--body);min-height:44px;padding-bottom:12px;color:var(--muted)}
+.atelier-auth-heading{flex:none;min-height:102px;margin:20px 0}
+.atelier-auth-heading h2{font:700 clamp(30px,3.2vw,44px)/1.15 var(--display);letter-spacing:-.015em;text-transform:uppercase;color:var(--ink)}
+.atelier-auth-component{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-gutter:stable;padding-right:8px}
+.atelier-auth-fine{flex:none;margin-top:16px;padding-top:12px;font:400 12px/1.6 var(--body);color:var(--muted);border-color:var(--line)}
+.atelier-auth-edition,.atelier-auth-art-copy>span{font:500 11px/1.6 var(--body);letter-spacing:.1em}
+.atelier-auth-close{background:var(--paper);color:var(--ink)}
+.atelier-auth :is(.cl-rootBox,.cl-card,.cl-formFieldLabel,.cl-formFieldInput,.cl-formButtonPrimary,.cl-socialButtonsBlockButton,.cl-socialButtonsBlockButtonText,.cl-footerActionText,.cl-footerActionLink,.cl-dividerText,.cl-alertText,.cl-formFieldErrorText,.cl-formFieldAction){font-family:var(--body)!important}
+.atelier-auth .cl-formFieldLabel{font-size:14px!important;line-height:1.5!important;font-weight:500!important}
+.atelier-auth .atelier-clerk-input{font-size:16px!important;line-height:1.5!important;border-radius:0!important}
+/* One border and an inset focus indicator, including password fields with a reveal button. */
+.atelier-auth .atelier-clerk-input{width:100%!important;min-height:48px!important;padding:12px!important;border:1px solid var(--line,#cbd2c6)!important;background:#fff!important;outline:none!important;outline-offset:0!important;box-shadow:none!important}
+.atelier-auth .atelier-clerk-input:focus,.atelier-auth .atelier-clerk-input:focus-visible{border-color:var(--accent,#294e3c)!important;outline:none!important;box-shadow:inset 0 0 0 1px var(--accent,#294e3c)!important}
+.atelier-auth .atelier-clerk-input::placeholder{color:#72796f;opacity:1}
+.atelier-auth .cl-formFieldInputGroup .atelier-clerk-input{padding-inline-end:48px!important}
+.atelier-auth .atelier-clerk-social{font-size:16px!important;border-radius:0!important;background:var(--paper)!important}
+.atelier-auth .atelier-clerk-submit{font-size:16px!important;font-weight:600!important;letter-spacing:0!important;border-radius:0!important;background:var(--accent)!important;background-image:none!important}
+.atelier-auth .cl-dividerText{font-size:12px!important;color:var(--muted)!important}
+.atelier-auth .cl-footerActionText,.atelier-auth .cl-footerActionLink{font-size:14px!important;line-height:1.5!important}
+@media(max-width:1000px) and (min-width:761px){.atelier-auth-panel{padding-inline:28px}.atelier-auth-heading{min-height:84px}}
+@media(max-width:760px){.atelier-auth:not(.atelier-auth-compact){width:min(460px,calc(100vw - 24px));height:min(780px,calc(100dvh - 24px));max-height:calc(100dvh - 24px)}.atelier-auth-layout{display:block;height:100%;min-height:0}.atelier-auth-panel{padding:24px 20px 16px}.atelier-auth-logo{margin-bottom:16px}.atelier-auth-heading{min-height:82px;margin:16px 0}.atelier-auth-heading h2{font-size:clamp(26px,8vw,36px)}.atelier-auth-component{padding-right:4px}.atelier-auth-fine{font-size:12px;margin-top:12px;padding-top:12px}}
+@media(max-height:650px){.atelier-auth-panel{padding:16px 24px}.atelier-auth-logo{width:96px;height:32px;margin-bottom:8px}.atelier-auth-tabs>button{min-height:36px;padding-bottom:6px}.atelier-auth-heading{min-height:0;margin:12px 0}.atelier-auth-heading h2{font-size:26px;line-height:1.1}.atelier-auth-fine{margin-top:10px;padding-top:10px}.atelier-auth-close{top:8px;right:8px}}
+.atelier-auth .atelier-clerk-submit::after{background-image:none!important;box-shadow:none!important}
+.atelier-auth[data-mode=register] .atelier-auth-art>img{object-position:65% center}
+@media(max-height:650px){.atelier-auth .atelier-auth-heading h2{font-size:30px!important;line-height:1.1!important}}

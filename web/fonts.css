@@ -1,0 +1,27 @@
+@import url('/assets/fonts/caveat.css');
+@import url('/assets/fonts/manrope.css');
+
+:root{--body:'Manrope Variable',Arial,sans-serif;--display:'Caveat',Arial,sans-serif}
+body{font-family:var(--body)}
+button,input,select,textarea{font-family:var(--body)}
+h1,h2,.section-title,.campaign-copy h1,.hero-heading h1{font-weight:700}
+.checkout-step legend,.checkout-line h3,.checkout-step legend span{font-family:var(--body)}
+.checkout-step legend{font-size:18px;font-weight:600;line-height:1.45}
+.checkout-fields label{font-size:14px;line-height:1.5}
+.checkout-fields input{font-size:16px;line-height:1.5}
+.checkout-pay{font-size:16px;font-weight:600}
+.checkout-heading>p:last-child,.checkout-note,.checkout-method p,.checkout-result p{font-size:14px}
+.checkout-header>a:nth-child(2),.checkout-delivery small,.checkout-payment-option small,.checkout-summary-fine,.checkout-test-note,.checkout-footer{font-size:12px;line-height:1.6}
+.checkout-payment-option strong,.checkout-delivery,.checkout-line h3,.checkout-line-price,.checkout-costs>div,.checkout-total{font-size:14px}
+.checkout-line small,.checkout-costs .muted,.checkout-field-error{font-size:12px}
+.atelier-clerk-title{font-family:var(--body)!important}
+.atelier-auth input,.atelier-auth button{font-family:var(--body)!important}
+.atelier-auth-primary,.atelier-auth-secondary{font-family:var(--body);font-size:14px}
+.account-order{font-size:14px}.account-order small{font-size:12px}
+.card-meta,.product-card .card-meta,.product-card .card-tag,.section-index,.eyebrow,.size-guide-link{font-size:12px}
+.size-guide-content aside p,.size-guide-unit,.size-guide-availability,.size-guide-note,.size-guide-legend{font-size:12px;line-height:1.6}
+.font-admin{font:15px/1.6 var(--body)}
+.font-admin h1,.font-admin h2{font-family:var(--display);font-weight:600;line-height:1.2}
+.font-admin h1{font-size:40px}
+@media(max-width:600px){.checkout-step legend{font-size:18px}.checkout-header>a:nth-child(2){font-size:12px}.checkout-heading h1{font-size:40px}.font-admin h1{font-size:32px}}
+#main:empty{min-height:calc(100svh - 96px)}.site-footer:empty{visibility:hidden}.checkout-loading{min-height:calc(100svh - 240px);display:grid;place-items:center}

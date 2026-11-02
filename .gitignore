@@ -1,0 +1,34 @@
+# Secrets and hosting linkage are local, never storefront assets.
+.env
+.env.*
+!.env.example
+!.env.sample
+.vercel/
+
+# Dependencies, builds, caches and browser test data.
+node_modules/
+public/
+.next/
+.turbo/
+coverage/
+*.tsbuildinfo
+.preview-checks/
+
+# Unrelated client QA reports and local test artifacts.
+/qa-*/
+test-results/
+playwright-report/
+*.log
+
+# Local design runtime and historical source snapshots.
+.od-skills/
+.od-frames/
+.file-versions/
+reference/figma/
+*.artifact.json
+/migration/
+
+# OS / editor metadata.
+.DS_Store
+Thumbs.db
+

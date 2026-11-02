@@ -1,0 +1,53 @@
+/* Choreography follows native page scrolling; no pinned editorial sections. */
+.motion-line-mask{overflow:clip;padding-bottom:.13em;margin-bottom:-.13em}
+.motion-line{transform-origin:50% 100%}
+.campaign-photo{position:relative;overflow:hidden}
+.campaign-photo>img:not(.motion-slide-outgoing),.movement-figure>img:not(.motion-slide-outgoing){position:relative;z-index:3}
+.motion-slide-outgoing{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;pointer-events:none!important;z-index:2;object-fit:inherit;object-position:inherit}
+.movement-figure .motion-slide-outgoing{object-fit:contain;object-position:center bottom}
+.campaign-photo .motion-slide-outgoing{object-fit:cover}
+.movement-stage h2{display:flex;align-items:center;justify-content:center}
+.movement-orbit{border:0!important}
+.movement-orbit svg{display:block;width:100%;height:100%;overflow:visible;transform:rotate(-90deg)}
+.movement-orbit circle{fill:none;stroke:#6e8c79;stroke-opacity:.75;stroke-width:1.5;stroke-dasharray:none;stroke-dashoffset:0;vector-effect:non-scaling-stroke}
+.collection-cover-scene{min-width:0}
+.collection-cover .collection-cover-art img{object-position:center top;transform-origin:center top}
+.collection-cover[data-motion-scene]{background:var(--ink)}
+.brand-editorial-photo{overflow:clip}
+.brand-editorial-photo img{transform-origin:50% 55%}
+.brand-editorial-title{position:static;align-self:start}
+.welcome-signup{position:relative}
+.welcome-signup::before{content:'';position:absolute;inset:0 0 auto;height:1px;background:var(--accent);transform:scaleX(var(--motion-rule,1));transform-origin:left}
+@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){
+ :is(.button,.company-button,.movement-link,.hero-cta,.collection-cover-link,.checkout-pay,.welcome-input-row button){position:relative;isolation:isolate;overflow:hidden}
+ :is(.button,.company-button,.movement-link,.hero-cta,.collection-cover-link,.checkout-pay,.welcome-input-row button)::before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:#fff;opacity:.12;transform:translateY(102%);transition:transform .5s cubic-bezier(.22,1,.36,1)}
+ :is(.button,.company-button,.movement-link,.hero-cta,.collection-cover-link,.checkout-pay,.welcome-input-row button):not(:disabled):hover::before{transform:translateY(0)}
+ .card-photo img{transition:transform .75s cubic-bezier(.22,1,.36,1)}
+ .card-photo:hover img{transform:scale(1.045)}
+ .line-link{position:relative}
+ .line-link::after{content:'';position:absolute;inset:auto 0 -1px;height:2px;background:currentColor;transform:scaleX(0);transform-origin:right;transition:transform .45s cubic-bezier(.22,1,.36,1)}
+ .line-link:hover::after{transform:scaleX(1);transform-origin:left}
+}
+@media(prefers-reduced-motion:no-preference){
+ .drawer[open]{animation:civis-drawer-in .5s cubic-bezier(.22,1,.36,1)}
+ .atelier-auth[open]{animation:civis-dialog-in .55s cubic-bezier(.22,1,.36,1)}
+ .drawer[open]::backdrop,.atelier-auth[open]::backdrop{animation:civis-backdrop-in .4s ease-out}
+}
+@keyframes civis-drawer-in{from{transform:translateX(100%)}to{transform:translateX(0)}}
+@keyframes civis-dialog-in{from{transform:translateY(28px) scale(.98);opacity:0}to{transform:translateY(0) scale(1);opacity:1}}
+@keyframes civis-backdrop-in{from{opacity:0}to{opacity:1}}
+@supports(transition-behavior:allow-discrete) and (overlay:auto){
+ @media(prefers-reduced-motion:no-preference){
+  .drawer{translate:100% 0;transition:translate .45s cubic-bezier(.22,1,.36,1),display .45s allow-discrete,overlay .45s allow-discrete}
+  .drawer[open]{translate:0 0;animation:none}
+  .atelier-auth{opacity:0;transform:translateY(24px) scale(.98);transition:opacity .3s,transform .45s cubic-bezier(.22,1,.36,1),display .45s allow-discrete,overlay .45s allow-discrete}
+  .atelier-auth[open]{opacity:1;transform:none;animation:none}
+  .drawer::backdrop,.atelier-auth::backdrop{opacity:0;transition:opacity .35s,display .35s allow-discrete,overlay .35s allow-discrete}
+  .drawer[open]::backdrop,.atelier-auth[open]::backdrop{opacity:1;animation:none}
+  @starting-style{
+   .drawer[open]{translate:100% 0}
+   .atelier-auth[open]{opacity:0;transform:translateY(24px) scale(.98)}
+   .drawer[open]::backdrop,.atelier-auth[open]::backdrop{opacity:0}
+  }
+ }
+}

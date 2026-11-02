@@ -1,0 +1,33 @@
+{
+  "name": "civis-atelier",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "dev": "node --env-file=.env.local --watch scripts/dev.mjs",
+    "prestart": "npm run build",
+    "start": "node --env-file=.env.local scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "db:migrate": "node --env-file=.env.local scripts/migrate.mjs",
+    "db:seed": "node --env-file=.env.local scripts/seed.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@clerk/express": "^2.1.82",
+    "@clerk/localizations": "^4.24.0",
+    "@neondatabase/serverless": "^1.2.0",
+    "@vercel/blob": "^2.8.2",
+    "express": "^5.3.0",
+    "gsap": "3.15.0",
+    "helmet": "^8.3.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "morphdom": "^2.7.8",
+    "sharp": "^0.35.5"
+  }
+}

@@ -1,0 +1,8 @@
+window.CivisDetails={
+  render(p,{locale,t,L,esc}){
+    const pending=L('Інформація уточнюється.','Further details will be available soon.');
+    const fields=[['info',t('Info'),locale==='uk'?t(p.description):p.description],['composition',L('Склад','Composition'),pending],['story',L('Історія','Story'),t('Considered shapes. Expressive details. Your point of view.')],['manufacturing',L('Виробництво','Manufacturing'),pending],['care',L('Догляд','Care'),L('Дотримуйтеся вказівок на етикетці виробу.','Follow the instructions on the garment care label.')],['packaging',L('Пакування','Packaging'),pending],['shipping',L('Доставка та повернення','Delivery & returns'),L('Доставка Україною Новою поштою. Відправлення — до 10 робочих днів після підтвердження замовлення та оплати. Доставка оплачується окремо.','Delivery within Ukraine by Nova Poshta. Dispatch within 10 business days after order confirmation and payment. Shipping is charged separately.')]];
+    return `<div class="details">${fields.map(([key,label,fallback])=>{const copy=p.details?.[key]?.[locale]||fallback;return copy?`<details ${key==='info'?'open':''}><summary>${esc(label)}</summary><p style="white-space:pre-line">${esc(copy)}</p>${key==='shipping'?`<p><a class="line-link" href="/shipping-returns${locale==='en'?'?lang=en':''}">${L('Повні правила доставки та повернення','Full shipping and return rules')}</a></p>`:''}</details>`:'';}).join('')}</div>`;
+  },
+  flip(p,{locale,esc}){const copy=p.details?.composition?.[locale];return copy?`<span class="turn-material"><b>${locale==='uk'?'Склад':'Composition'}</b><span style="white-space:pre-line">${esc(copy)}</span></span>`:'';}
+};

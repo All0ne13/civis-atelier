@@ -1,0 +1,20 @@
+# Local secrets and design-runtime internals must never be uploaded.
+.env*
+!.env.example
+.git/
+.od-skills/
+.od-frames/
+.file-versions/
+.preview-checks/
+qa-shopify-2026-10-28/
+qa-commonlines-cro-2026-10-28/
+qa-dicendrip-2026-10-30/
+node_modules/
+public/
+.next/
+coverage/
+reference/figma/
+*.artifact.json
+preview-server.cjs
+review-check.cjs
+migration/

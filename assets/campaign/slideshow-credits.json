@@ -1,0 +1,19 @@
+{
+  "source": "AI-generated editorial imagery for the requested isolated design preview",
+  "method": "Built-in image_gen, new images",
+  "disclosure": "Generic styling, not photographs of exact catalogue products",
+  "images": [
+    {
+      "file": "campaign-slide-02.png",
+      "width": 1448,
+      "height": 1086,
+      "prompt": "Use case: photorealistic-natural. Create one landscape 4:3 high-end independent streetwear editorial photo for a design preview. An adult male model wearing an unbranded oversized white short sleeve shirt and charcoal wide trousers, full figure walking across a modern raw-concrete courtyard, a second adult female model in a black T-shirt further behind. Cool gray architecture and deep forest-green metal gate, angled sunlight, tactile analog-film texture, candid movement, confident sophisticated fashion magazine art direction. Subjects fully visible with ample clearance, composed to fill the frame, no empty advertising space. Generic illustrative styling, not an exact catalogue garment. No logos, text, watermark, interface or collage. Coherent palette: black, off-white, gray, deep green."
+    },
+    {
+      "file": "campaign-slide-03.png",
+      "width": 1448,
+      "height": 1086,
+      "prompt": "Use case: photorealistic-natural. Create one landscape 4:3 premium streetwear editorial photo for a design preview. Two adult fashion models wearing unbranded relaxed black short sleeve shirts and washed charcoal loose jeans, one seated on a low concrete ledge and one standing, entire figures visible with margin. Strong architectural afternoon shadows across a raw concrete urban courtyard with a deep green steel door. Refined confident editorial styling, tactile cotton, realistic skin, subtle analogue grain, contemporary fashion magazine lighting. Generic styling rather than an actual named product. Restrained cool gray, black and forest-green palette. No text, logos, watermark, graphic elements, neon or collage. Both people fill frame naturally without artificial copy space."
+    }
+  ]
+}

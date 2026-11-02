@@ -1,0 +1,20 @@
+{
+  "author": "AI-generated using OpenAI image generation",
+  "method": "Built-in image_gen, new generic editorial scenes",
+  "purpose": "User-requested redesign preview imagery; generic styling, not real catalogue product photography",
+  "license": "Generated preview assets; no external stock used",
+  "images": [
+    {
+      "file": "home-campaign-v3.png",
+      "width": 1448,
+      "height": 1086,
+      "prompt": "Use case: photorealistic-natural. Create a premium contemporary streetwear editorial photograph for an independent fashion storefront design preview. Landscape 4:3 composition. Two adult fashion models, a woman and a man, wearing generic unbranded oversized black and off-white cotton T-shirts, charcoal loose tailored trousers, minimalist sneakers. One standing foreground slightly left, the other sitting on a low raw-concrete ledge to the right. Entire figures with ample clearance around heads and feet. Brutalist pale-gray urban courtyard with a deep forest-green metal door, sharp angled afternoon sunlight and architectural shadows, tactile grain, art-directed independent fashion magazine photograph, candid movement and quiet confidence, restrained cool ink/gray/green palette. The clothing is illustrative styling, not an exact real catalogue product. No words, logos, watermarks, graphics, interface, beige wash, luxury accessories or invented branding. Image fills frame with purposeful architecture, no artificial empty copy space."
+    },
+    {
+      "file": "home-editorial-v3.png",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Use case: photorealistic-natural. A premium independent streetwear magazine photograph, portrait 4:5. An adult woman in an unbranded oversized dark forest-green cotton shirt and loose charcoal trousers walking past a raw pale concrete wall in an urban courtyard. Entire figure visible, confident natural motion, dramatic afternoon sun and diagonal architectural shadows, editorial analog-film texture, realistic fabric, sophisticated minimal styling. Cooler restrained gray, deep green, black, off-white palette, visually coherent with a brutalist courtyard fashion shoot. Generic styling for a design preview, not an exact named catalogue garment. No text, no lettering, no logos, no watermark, no fashion labels, no collage."
+    }
+  ]
+}

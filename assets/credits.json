@@ -1,0 +1,19 @@
+{
+  "source": "User-supplied local Civis Atelier assets",
+  "reference": "reference/figma/index.json",
+  "figmaReference": "https://www.figma.com/design/USQtHyp9LFYB7nETwIX2Ui/Cloth-Store?node-id=0-1",
+  "figmaAccessed": false,
+  "license": "Not supplied; assets used only for the requested isolated design preview",
+  "author": "Not supplied",
+  "presentation": "Original reference assets remain unchanged. The active product imagery is now 22 generated studio photographs for the 10 existing products; exact prompts and original references are recorded in assets/catalogue-v2/credits.json. Garment3d.js creates illustrative volumetric meshes, not scanned product replicas.",
+  "assets": {
+    "brand": "assets/brand/civis-atelier.svg — supplied transparent original, unchanged",
+    "productPhotography": "assets/products — original supplied photographs retained as design references, unchanged",
+    "activeProductPhotography": "assets/catalogue-v2 — 22 generated preview photographs, 2–3 per product, covering all catalogue colors. Exact prompts and provenance in assets/catalogue-v2/credits.json",
+    "galleryDemoPhotography": "assets/gallery — four generated test images; provenance and exact prompts in assets/gallery/credits.json",
+    "editorialPhotography": "assets/editorial — supplied editorial photographs",
+    "homeCampaign": "assets/campaign — four AI-generated editorial scenes for Home (three slideshow scenes plus collection portrait); generic styling, not actual catalogue products. Exact prompts in assets/campaign/credits.json and assets/campaign/slideshow-credits.json",
+    "catalogue": "reference/catalogue.json — unchanged integer USD-cent base prices",
+    "translations": "reference/uk.ts — supplied Ukrainian translations, supplemented for preview controls"
+  }
+}
