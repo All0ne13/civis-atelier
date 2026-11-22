@@ -16,6 +16,7 @@ coverage/
 
 # Unrelated client QA reports and local test artifacts.
 /qa-*/
+/tyrants-card-studio/
 test-results/
 playwright-report/
 *.log
